@@ -1,11 +1,11 @@
 <?php
-namespace GuzzleHttp\Tests\Handler;
+namespace PvGuzzleHttp\Tests\Handler;
 
-use GuzzleHttp\Handler\CurlMultiHandler;
-use GuzzleHttp\Psr7\Request;
-use GuzzleHttp\Psr7\Response;
-use GuzzleHttp\Tests\Server;
-use GuzzleHttp\Utils;
+use PvGuzzleHttp\Handler\CurlMultiHandler;
+use PvGuzzleHttp\Psr7\Request;
+use PvGuzzleHttp\Psr7\Response;
+use PvGuzzleHttp\Tests\Server;
+use PvGuzzleHttp\Utils;
 use PHPUnit\Framework\TestCase;
 
 class CurlMultiHandlerTest extends TestCase
@@ -43,7 +43,7 @@ class CurlMultiHandlerTest extends TestCase
     }
 
     /**
-     * @expectedException \GuzzleHttp\Exception\ConnectException
+     * @expectedException \PvGuzzleHttp\Exception\ConnectException
      * @expectedExceptionMessage cURL error
      */
     public function testCreatesExceptions()

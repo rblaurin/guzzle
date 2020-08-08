@@ -1,5 +1,5 @@
 <?php
-namespace GuzzleHttp\Cookie;
+namespace PvGuzzleHttp\Cookie;
 
 /**
  * Set-Cookie object

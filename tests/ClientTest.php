@@ -1,17 +1,17 @@
 <?php
-namespace GuzzleHttp\Tests;
+namespace PvGuzzleHttp\Tests;
 
-use GuzzleHttp\Client;
-use GuzzleHttp\Cookie\CookieJar;
-use GuzzleHttp\Handler\MockHandler;
-use GuzzleHttp\HandlerStack;
-use GuzzleHttp\Middleware;
-use GuzzleHttp\Promise\PromiseInterface;
-use GuzzleHttp\Psr7;
-use GuzzleHttp\Psr7\Request;
-use GuzzleHttp\Psr7\Response;
-use GuzzleHttp\Psr7\Uri;
-use GuzzleHttp\RequestOptions;
+use PvGuzzleHttp\Client;
+use PvGuzzleHttp\Cookie\CookieJar;
+use PvGuzzleHttp\Handler\MockHandler;
+use PvGuzzleHttp\HandlerStack;
+use PvGuzzleHttp\Middleware;
+use PvGuzzleHttp\Promise\PromiseInterface;
+use PvGuzzleHttp\Psr7;
+use PvGuzzleHttp\Psr7\Request;
+use PvGuzzleHttp\Psr7\Response;
+use PvGuzzleHttp\Psr7\Uri;
+use PvGuzzleHttp\RequestOptions;
 use PHPUnit\Framework\TestCase;
 use Psr\Http\Message\ResponseInterface;
 
@@ -219,7 +219,7 @@ class ClientTest extends TestCase
     }
 
     /**
-     * @expectedException \GuzzleHttp\Exception\ClientException
+     * @expectedException \PvGuzzleHttp\Exception\ClientException
      */
     public function testThrowsHttpErrorsByDefault()
     {
@@ -231,7 +231,7 @@ class ClientTest extends TestCase
 
     /**
      * @expectedException \InvalidArgumentException
-     * @expectedExceptionMessage cookies must be an instance of GuzzleHttp\Cookie\CookieJarInterface
+     * @expectedExceptionMessage cookies must be an instance of PvGuzzleHttp\Cookie\CookieJarInterface
      */
     public function testValidatesCookies()
     {
@@ -751,7 +751,7 @@ class ClientTest extends TestCase
     }
 
     /**
-     * @expectedException \GuzzleHttp\Exception\InvalidArgumentException
+     * @expectedException \PvGuzzleHttp\Exception\InvalidArgumentException
      * @expectedExceptionMessage IDN conversion failed
      */
     public function testExceptionOnInvalidIdn()

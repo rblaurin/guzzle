@@ -1,15 +1,15 @@
 <?php
-namespace GuzzleHttp\Tests;
+namespace PvGuzzleHttp\Tests;
 
-use GuzzleHttp\Exception\RequestException;
-use GuzzleHttp\MessageFormatter;
-use GuzzleHttp\Psr7;
-use GuzzleHttp\Psr7\Request;
-use GuzzleHttp\Psr7\Response;
+use PvGuzzleHttp\Exception\RequestException;
+use PvGuzzleHttp\MessageFormatter;
+use PvGuzzleHttp\Psr7;
+use PvGuzzleHttp\Psr7\Request;
+use PvGuzzleHttp\Psr7\Response;
 use PHPUnit\Framework\TestCase;
 
 /**
- * @covers GuzzleHttp\MessageFormatter
+ * @covers PvGuzzleHttp\MessageFormatter
  */
 class MessageFormatterTest extends TestCase
 {

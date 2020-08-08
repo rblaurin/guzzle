@@ -1,5 +1,5 @@
 {
-    "name": "guzzlehttp/guzzle",
+    "name": "rblaurin/guzzle",
     "type": "library",
     "description": "Guzzle is a PHP HTTP client library",
     "keywords": [
@@ -15,9 +15,9 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "Michael Dowling",
-            "email": "mtdowling@gmail.com",
-            "homepage": "https://github.com/mtdowling"
+            "name": "Rodrigo Bergmann Laurindo",
+            "email": "rblaurin@gmail.com",
+            "homepage": "https://github.com/rblaurin/"
         }
     ],
     "require": {
@@ -45,7 +45,7 @@
     },
     "autoload": {
         "psr-4": {
-            "GuzzleHttp\\": "src/"
+            "PvGuzzleHttp\\": "src/"
         },
         "files": [
             "src/functions_include.php"
@@ -53,7 +53,7 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "GuzzleHttp\\Tests\\": "tests/"
+            "PvGuzzleHttp\\Tests\\": "tests/"
         }
     }
 }

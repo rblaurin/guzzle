@@ -10,7 +10,7 @@ page.
 Making a Request
 ================
 
-You can send requests with Guzzle using a ``GuzzleHttp\ClientInterface``
+You can send requests with Guzzle using a ``PvGuzzleHttp\ClientInterface``
 object.
 
 
@@ -19,7 +19,7 @@ Creating a Client
 
 .. code-block:: php
 
-    use GuzzleHttp\Client;
+    use PvGuzzleHttp\Client;
 
     $client = new Client([
         // Base URI is used with relative requests
@@ -42,7 +42,7 @@ The client constructor accepts an associative array of options:
     .. code-block:: php
 
         // Create a client with a base URI
-        $client = new GuzzleHttp\Client(['base_uri' => 'https://foo.com/api/']);
+        $client = new PvGuzzleHttp\Client(['base_uri' => 'https://foo.com/api/']);
         // Send a request to https://foo.com/api/test
         $response = $client->request('GET', 'test');
         // Send a request to https://foo.com/root
@@ -66,7 +66,7 @@ The client constructor accepts an associative array of options:
     (callable) Function that transfers HTTP requests over the wire. The
     function is called with a ``Psr7\Http\Message\RequestInterface`` and array
     of transfer options, and must return a
-    ``GuzzleHttp\Promise\PromiseInterface`` that is fulfilled with a
+    ``PvGuzzleHttp\Promise\PromiseInterface`` that is fulfilled with a
     ``Psr7\Http\Message\ResponseInterface`` on success.
 
 ``...``
@@ -94,7 +94,7 @@ ready:
 
 .. code-block:: php
 
-    use GuzzleHttp\Psr7\Request;
+    use PvGuzzleHttp\Psr7\Request;
 
     $request = new Request('PUT', 'http://httpbin.org/put');
     $response = $client->send($request, ['timeout' => 2]);
@@ -127,7 +127,7 @@ You can also use the `sendAsync()` and `requestAsync()` methods of a client:
 
 .. code-block:: php
 
-    use GuzzleHttp\Psr7\Request;
+    use PvGuzzleHttp\Psr7\Request;
 
     // Create a PSR-7 request object to send
     $headers = ['X-Foo' => 'Bar'];
@@ -148,7 +148,7 @@ rejected with an exception.
 .. code-block:: php
 
     use Psr\Http\Message\ResponseInterface;
-    use GuzzleHttp\Exception\RequestException;
+    use PvGuzzleHttp\Exception\RequestException;
 
     $promise = $client->requestAsync('GET', 'http://httpbin.org/get');
     $promise->then(
@@ -170,8 +170,8 @@ requests.
 
 .. code-block:: php
 
-    use GuzzleHttp\Client;
-    use GuzzleHttp\Promise;
+    use PvGuzzleHttp\Client;
+    use PvGuzzleHttp\Promise;
 
     $client = new Client(['base_uri' => 'http://httpbin.org/']);
 
@@ -194,16 +194,16 @@ requests.
     echo $responses['image']->getHeader('Content-Length')[0];
     echo $responses['png']->getHeader('Content-Length')[0];
 
-You can use the ``GuzzleHttp\Pool`` object when you have an indeterminate
+You can use the ``PvGuzzleHttp\Pool`` object when you have an indeterminate
 amount of requests you wish to send.
 
 .. code-block:: php
 
-    use GuzzleHttp\Client;
-    use GuzzleHttp\Exception\RequestException;
-    use GuzzleHttp\Pool;
-    use GuzzleHttp\Psr7\Request;
-    use GuzzleHttp\Psr7\Response;
+    use PvGuzzleHttp\Client;
+    use PvGuzzleHttp\Exception\RequestException;
+    use PvGuzzleHttp\Pool;
+    use PvGuzzleHttp\Psr7\Request;
+    use PvGuzzleHttp\Psr7\Response;
 
     $client = new Client();
 
@@ -347,7 +347,7 @@ resource returned from ``fopen``, or an instance of a
     $r = $client->request('POST', 'http://httpbin.org/post', ['body' => $body]);
 
     // Use the stream_for() function to create a PSR-7 stream.
-    $body = \GuzzleHttp\Psr7\stream_for('hello!');
+    $body = \PvGuzzleHttp\Psr7\stream_for('hello!');
     $r = $client->request('POST', 'http://httpbin.org/post', ['body' => $body]);
 
 An easy way to upload JSON data and set the appropriate header is using the
@@ -428,12 +428,12 @@ Cookies
 
 Guzzle can maintain a cookie session for you if instructed using the
 ``cookies`` request option. When sending a request, the ``cookies`` option
-must be set to an instance of ``GuzzleHttp\Cookie\CookieJarInterface``.
+must be set to an instance of ``PvGuzzleHttp\Cookie\CookieJarInterface``.
 
 .. code-block:: php
 
     // Use a specific cookie jar
-    $jar = new \GuzzleHttp\Cookie\CookieJar;
+    $jar = new \PvGuzzleHttp\Cookie\CookieJar;
     $r = $client->request('GET', 'http://httpbin.org/cookies', [
         'cookies' => $jar
     ]);
@@ -444,16 +444,16 @@ to use a shared cookie jar for all requests.
 .. code-block:: php
 
     // Use a shared client cookie jar
-    $client = new \GuzzleHttp\Client(['cookies' => true]);
+    $client = new \PvGuzzleHttp\Client(['cookies' => true]);
     $r = $client->request('GET', 'http://httpbin.org/cookies');
 
-Different implementations exist for the ``GuzzleHttp\Cookie\CookieJarInterface``
+Different implementations exist for the ``PvGuzzleHttp\Cookie\CookieJarInterface``
 :
 
-- The ``GuzzleHttp\Cookie\CookieJar`` class stores cookies as an array.
-- The ``GuzzleHttp\Cookie\FileCookieJar`` class persists non-session cookies
+- The ``PvGuzzleHttp\Cookie\CookieJar`` class stores cookies as an array.
+- The ``PvGuzzleHttp\Cookie\FileCookieJar`` class persists non-session cookies
   using a JSON formatted file.
-- The ``GuzzleHttp\Cookie\SessionCookieJar`` class persists cookies in the
+- The ``PvGuzzleHttp\Cookie\SessionCookieJar`` class persists cookies in the
   client session.
 
 You can manually set cookies into a cookie jar with the named constructor
@@ -461,7 +461,7 @@ You can manually set cookies into a cookie jar with the named constructor
 
 .. code-block:: php
 
-    $jar = \GuzzleHttp\Cookie\CookieJar::fromArray(
+    $jar = \PvGuzzleHttp\Cookie\CookieJar::fromArray(
         [
             'some_cookie' => 'foo',
             'other_cookie' => 'barbaz1234'
@@ -470,7 +470,7 @@ You can manually set cookies into a cookie jar with the named constructor
     );
 
 You can get a cookie by its name with the ``getCookieByName($name)`` method
-which returns a ``GuzzleHttp\Cookie\SetCookie`` instance.
+which returns a ``PvGuzzleHttp\Cookie\SetCookie`` instance.
 
 .. code-block:: php
 
@@ -481,7 +481,7 @@ which returns a ``GuzzleHttp\Cookie\SetCookie`` instance.
     $cookie->getExpires(); // expiration date as a Unix timestamp
 
 The cookies can be also fetched into an array thanks to the `toArray()` method.
-The ``GuzzleHttp\Cookie\CookieJarInterface`` interface extends
+The ``PvGuzzleHttp\Cookie\CookieJarInterface`` interface extends
 ``Traversable`` so it can be iterated in a foreach loop.
 
 
@@ -540,15 +540,15 @@ on each other.
 Guzzle throws exceptions for errors that occur during a transfer.
 
 - In the event of a networking error (connection timeout, DNS errors, etc.),
-  a ``GuzzleHttp\Exception\RequestException`` is thrown. This exception
-  extends from ``GuzzleHttp\Exception\TransferException``. Catching this
+  a ``PvGuzzleHttp\Exception\RequestException`` is thrown. This exception
+  extends from ``PvGuzzleHttp\Exception\TransferException``. Catching this
   exception will catch any exception that can be thrown while transferring
   requests.
 
   .. code-block:: php
 
-      use GuzzleHttp\Psr7;
-      use GuzzleHttp\Exception\RequestException;
+      use PvGuzzleHttp\Psr7;
+      use PvGuzzleHttp\Exception\RequestException;
 
       try {
           $client->request('GET', 'https://github.com/_abc_123_404');
@@ -559,20 +559,20 @@ Guzzle throws exceptions for errors that occur during a transfer.
           }
       }
 
-- A ``GuzzleHttp\Exception\ConnectException`` exception is thrown in the
+- A ``PvGuzzleHttp\Exception\ConnectException`` exception is thrown in the
   event of a networking error. This exception extends from
-  ``GuzzleHttp\Exception\RequestException``.
+  ``PvGuzzleHttp\Exception\RequestException``.
 
-- A ``GuzzleHttp\Exception\ClientException`` is thrown for 400
+- A ``PvGuzzleHttp\Exception\ClientException`` is thrown for 400
   level errors if the ``http_errors`` request option is set to true. This
-  exception extends from ``GuzzleHttp\Exception\BadResponseException`` and
-  ``GuzzleHttp\Exception\BadResponseException`` extends from
-  ``GuzzleHttp\Exception\RequestException``.
+  exception extends from ``PvGuzzleHttp\Exception\BadResponseException`` and
+  ``PvGuzzleHttp\Exception\BadResponseException`` extends from
+  ``PvGuzzleHttp\Exception\RequestException``.
 
   .. code-block:: php
 
-      use GuzzleHttp\Psr7;
-      use GuzzleHttp\Exception\ClientException;
+      use PvGuzzleHttp\Psr7;
+      use PvGuzzleHttp\Exception\ClientException;
 
       try {
           $client->request('GET', 'https://github.com/_abc_123_404');
@@ -581,15 +581,15 @@ Guzzle throws exceptions for errors that occur during a transfer.
           echo Psr7\str($e->getResponse());
       }
 
-- A ``GuzzleHttp\Exception\ServerException`` is thrown for 500 level
+- A ``PvGuzzleHttp\Exception\ServerException`` is thrown for 500 level
   errors if the ``http_errors`` request option is set to true. This
-  exception extends from ``GuzzleHttp\Exception\BadResponseException``.
+  exception extends from ``PvGuzzleHttp\Exception\BadResponseException``.
 
-- A ``GuzzleHttp\Exception\TooManyRedirectsException`` is thrown when too
-  many redirects are followed. This exception extends from ``GuzzleHttp\Exception\RequestException``.
+- A ``PvGuzzleHttp\Exception\TooManyRedirectsException`` is thrown when too
+  many redirects are followed. This exception extends from ``PvGuzzleHttp\Exception\RequestException``.
 
 All of the above exceptions extend from
-``GuzzleHttp\Exception\TransferException``.
+``PvGuzzleHttp\Exception\TransferException``.
 
 
 Environment Variables

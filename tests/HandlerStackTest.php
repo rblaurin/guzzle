@@ -1,11 +1,11 @@
 <?php
-namespace GuzzleHttp\Tests;
+namespace PvGuzzleHttp\Tests;
 
-use GuzzleHttp\Cookie\CookieJar;
-use GuzzleHttp\Handler\MockHandler;
-use GuzzleHttp\HandlerStack;
-use GuzzleHttp\Psr7\Request;
-use GuzzleHttp\Psr7\Response;
+use PvGuzzleHttp\Cookie\CookieJar;
+use PvGuzzleHttp\Handler\MockHandler;
+use PvGuzzleHttp\HandlerStack;
+use PvGuzzleHttp\Psr7\Request;
+use PvGuzzleHttp\Psr7\Response;
 use PHPUnit\Framework\TestCase;
 
 class HandlerStackTest extends TestCase
@@ -99,13 +99,13 @@ class HandlerStackTest extends TestCase
         $builder->push(__CLASS__ . '::' . 'foo');
         $lines = explode("\n", (string) $builder);
         self::assertContains("> 4) Name: 'a', Function: callable(", $lines[0]);
-        self::assertContains("> 3) Name: '', Function: callable(GuzzleHttp\\Tests\\HandlerStackTest::foo)", $lines[1]);
-        self::assertContains("> 2) Name: '', Function: callable(['GuzzleHttp\\Tests\\HandlerStackTest', 'bar'])", $lines[2]);
-        self::assertContains("> 1) Name: '', Function: callable(GuzzleHttp\\Tests\\HandlerStackTest::foo)", $lines[3]);
+        self::assertContains("> 3) Name: '', Function: callable(PvGuzzleHttp\\Tests\\HandlerStackTest::foo)", $lines[1]);
+        self::assertContains("> 2) Name: '', Function: callable(['PvGuzzleHttp\\Tests\\HandlerStackTest', 'bar'])", $lines[2]);
+        self::assertContains("> 1) Name: '', Function: callable(PvGuzzleHttp\\Tests\\HandlerStackTest::foo)", $lines[3]);
         self::assertContains("< 0) Handler: callable(", $lines[4]);
-        self::assertContains("< 1) Name: '', Function: callable(GuzzleHttp\\Tests\\HandlerStackTest::foo)", $lines[5]);
-        self::assertContains("< 2) Name: '', Function: callable(['GuzzleHttp\\Tests\\HandlerStackTest', 'bar'])", $lines[6]);
-        self::assertContains("< 3) Name: '', Function: callable(GuzzleHttp\\Tests\\HandlerStackTest::foo)", $lines[7]);
+        self::assertContains("< 1) Name: '', Function: callable(PvGuzzleHttp\\Tests\\HandlerStackTest::foo)", $lines[5]);
+        self::assertContains("< 2) Name: '', Function: callable(['PvGuzzleHttp\\Tests\\HandlerStackTest', 'bar'])", $lines[6]);
+        self::assertContains("< 3) Name: '', Function: callable(PvGuzzleHttp\\Tests\\HandlerStackTest::foo)", $lines[7]);
         self::assertContains("< 4) Name: 'a', Function: callable(", $lines[8]);
     }
 

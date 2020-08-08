@@ -1,8 +1,8 @@
 <?php
-namespace GuzzleHttp\Tests;
+namespace PvGuzzleHttp\Tests;
 
-use GuzzleHttp\Client;
-use GuzzleHttp\Psr7;
+use PvGuzzleHttp\Client;
+use PvGuzzleHttp\Psr7;
 use Psr\Http\Message\ResponseInterface;
 
 /**

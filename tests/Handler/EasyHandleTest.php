@@ -1,12 +1,12 @@
 <?php
-namespace GuzzleHttp\Test\Handler;
+namespace PvGuzzleHttp\Test\Handler;
 
-use GuzzleHttp\Handler\EasyHandle;
-use GuzzleHttp\Psr7;
+use PvGuzzleHttp\Handler\EasyHandle;
+use PvGuzzleHttp\Psr7;
 use PHPUnit\Framework\TestCase;
 
 /**
- * @covers \GuzzleHttp\Handler\EasyHandle
+ * @covers \PvGuzzleHttp\Handler\EasyHandle
  */
 class EasyHandleTest extends TestCase
 {

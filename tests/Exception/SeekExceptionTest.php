@@ -1,8 +1,8 @@
 <?php
-namespace GuzzleHttp\Tests\Exception;
+namespace PvGuzzleHttp\Tests\Exception;
 
-use GuzzleHttp\Exception\SeekException;
-use GuzzleHttp\Psr7;
+use PvGuzzleHttp\Exception\SeekException;
+use PvGuzzleHttp\Psr7;
 use PHPUnit\Framework\TestCase;
 
 class SeekExceptionTest extends TestCase

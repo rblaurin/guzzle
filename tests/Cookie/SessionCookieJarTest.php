@@ -1,12 +1,12 @@
 <?php
-namespace GuzzleHttp\Tests\CookieJar;
+namespace PvGuzzleHttp\Tests\CookieJar;
 
-use GuzzleHttp\Cookie\SessionCookieJar;
-use GuzzleHttp\Cookie\SetCookie;
+use PvGuzzleHttp\Cookie\SessionCookieJar;
+use PvGuzzleHttp\Cookie\SetCookie;
 use PHPUnit\Framework\TestCase;
 
 /**
- * @covers GuzzleHttp\Cookie\SessionCookieJar
+ * @covers PvGuzzleHttp\Cookie\SessionCookieJar
  */
 class SessionCookieJarTest extends TestCase
 {

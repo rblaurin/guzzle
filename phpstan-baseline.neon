@@ -1,52 +1,52 @@
 parameters:
 	ignoreErrors:
 		-
-			message: "#^Property GuzzleHttp\\\\Client\\:\\:\\$config type has no value type specified in iterable type array\\.$#"
+			message: "#^Property PvGuzzleHttp\\\\Client\\:\\:\\$config type has no value type specified in iterable type array\\.$#"
 			count: 1
 			path: src/Client.php
 
 		-
-			message: "#^Method GuzzleHttp\\\\Client\\:\\:__construct\\(\\) has parameter \\$config with no value type specified in iterable type array\\.$#"
+			message: "#^Method PvGuzzleHttp\\\\Client\\:\\:__construct\\(\\) has parameter \\$config with no value type specified in iterable type array\\.$#"
 			count: 1
 			path: src/Client.php
 
 		-
-			message: "#^Method GuzzleHttp\\\\Client\\:\\:__call\\(\\) has parameter \\$args with no value type specified in iterable type array\\.$#"
+			message: "#^Method PvGuzzleHttp\\\\Client\\:\\:__call\\(\\) has parameter \\$args with no value type specified in iterable type array\\.$#"
 			count: 1
 			path: src/Client.php
 
 		-
-			message: "#^Method GuzzleHttp\\\\Client\\:\\:__call\\(\\) should return GuzzleHttp\\\\Promise\\\\PromiseInterface but returns GuzzleHttp\\\\Promise\\\\PromiseInterface\\|Psr\\\\Http\\\\Message\\\\ResponseInterface\\.$#"
+			message: "#^Method PvGuzzleHttp\\\\Client\\:\\:__call\\(\\) should return PvGuzzleHttp\\\\Promise\\\\PromiseInterface but returns PvGuzzleHttp\\\\Promise\\\\PromiseInterface\\|Psr\\\\Http\\\\Message\\\\ResponseInterface\\.$#"
 			count: 1
 			path: src/Client.php
 
 		-
-			message: "#^Method GuzzleHttp\\\\Client\\:\\:sendAsync\\(\\) has parameter \\$options with no value type specified in iterable type array\\.$#"
+			message: "#^Method PvGuzzleHttp\\\\Client\\:\\:sendAsync\\(\\) has parameter \\$options with no value type specified in iterable type array\\.$#"
 			count: 1
 			path: src/Client.php
 
 		-
-			message: "#^Method GuzzleHttp\\\\Client\\:\\:send\\(\\) has parameter \\$options with no value type specified in iterable type array\\.$#"
+			message: "#^Method PvGuzzleHttp\\\\Client\\:\\:send\\(\\) has parameter \\$options with no value type specified in iterable type array\\.$#"
 			count: 1
 			path: src/Client.php
 
 		-
-			message: "#^Method GuzzleHttp\\\\Client\\:\\:requestAsync\\(\\) has parameter \\$options with no value type specified in iterable type array\\.$#"
+			message: "#^Method PvGuzzleHttp\\\\Client\\:\\:requestAsync\\(\\) has parameter \\$options with no value type specified in iterable type array\\.$#"
 			count: 1
 			path: src/Client.php
 
 		-
-			message: "#^Method GuzzleHttp\\\\Client\\:\\:request\\(\\) has parameter \\$options with no value type specified in iterable type array\\.$#"
+			message: "#^Method PvGuzzleHttp\\\\Client\\:\\:request\\(\\) has parameter \\$options with no value type specified in iterable type array\\.$#"
 			count: 1
 			path: src/Client.php
 
 		-
-			message: "#^Method GuzzleHttp\\\\Client\\:\\:buildUri\\(\\) has parameter \\$config with no value type specified in iterable type array\\.$#"
+			message: "#^Method PvGuzzleHttp\\\\Client\\:\\:buildUri\\(\\) has parameter \\$config with no value type specified in iterable type array\\.$#"
 			count: 1
 			path: src/Client.php
 
 		-
-			message: "#^Method GuzzleHttp\\\\Client\\:\\:configureDefaults\\(\\) has parameter \\$config with no value type specified in iterable type array\\.$#"
+			message: "#^Method PvGuzzleHttp\\\\Client\\:\\:configureDefaults\\(\\) has parameter \\$config with no value type specified in iterable type array\\.$#"
 			count: 1
 			path: src/Client.php
 
@@ -56,22 +56,22 @@ parameters:
 			path: src/Client.php
 
 		-
-			message: "#^Method GuzzleHttp\\\\Client\\:\\:prepareDefaults\\(\\) has parameter \\$options with no value type specified in iterable type array\\.$#"
+			message: "#^Method PvGuzzleHttp\\\\Client\\:\\:prepareDefaults\\(\\) has parameter \\$options with no value type specified in iterable type array\\.$#"
 			count: 1
 			path: src/Client.php
 
 		-
-			message: "#^Method GuzzleHttp\\\\Client\\:\\:prepareDefaults\\(\\) return type has no value type specified in iterable type array\\.$#"
+			message: "#^Method PvGuzzleHttp\\\\Client\\:\\:prepareDefaults\\(\\) return type has no value type specified in iterable type array\\.$#"
 			count: 1
 			path: src/Client.php
 
 		-
-			message: "#^Method GuzzleHttp\\\\Client\\:\\:transfer\\(\\) has parameter \\$options with no value type specified in iterable type array\\.$#"
+			message: "#^Method PvGuzzleHttp\\\\Client\\:\\:transfer\\(\\) has parameter \\$options with no value type specified in iterable type array\\.$#"
 			count: 1
 			path: src/Client.php
 
 		-
-			message: "#^Method GuzzleHttp\\\\Client\\:\\:applyOptions\\(\\) has parameter \\$options with no value type specified in iterable type array\\.$#"
+			message: "#^Method PvGuzzleHttp\\\\Client\\:\\:applyOptions\\(\\) has parameter \\$options with no value type specified in iterable type array\\.$#"
 			count: 1
 			path: src/Client.php
 
@@ -81,47 +81,47 @@ parameters:
 			path: src/Client.php
 
 		-
-			message: "#^Method GuzzleHttp\\\\ClientInterface\\:\\:send\\(\\) has parameter \\$options with no value type specified in iterable type array\\.$#"
+			message: "#^Method PvGuzzleHttp\\\\ClientInterface\\:\\:send\\(\\) has parameter \\$options with no value type specified in iterable type array\\.$#"
 			count: 1
 			path: src/ClientInterface.php
 
 		-
-			message: "#^Method GuzzleHttp\\\\ClientInterface\\:\\:sendAsync\\(\\) has parameter \\$options with no value type specified in iterable type array\\.$#"
+			message: "#^Method PvGuzzleHttp\\\\ClientInterface\\:\\:sendAsync\\(\\) has parameter \\$options with no value type specified in iterable type array\\.$#"
 			count: 1
 			path: src/ClientInterface.php
 
 		-
-			message: "#^Method GuzzleHttp\\\\ClientInterface\\:\\:request\\(\\) has parameter \\$options with no value type specified in iterable type array\\.$#"
+			message: "#^Method PvGuzzleHttp\\\\ClientInterface\\:\\:request\\(\\) has parameter \\$options with no value type specified in iterable type array\\.$#"
 			count: 1
 			path: src/ClientInterface.php
 
 		-
-			message: "#^Method GuzzleHttp\\\\ClientInterface\\:\\:requestAsync\\(\\) has parameter \\$options with no value type specified in iterable type array\\.$#"
+			message: "#^Method PvGuzzleHttp\\\\ClientInterface\\:\\:requestAsync\\(\\) has parameter \\$options with no value type specified in iterable type array\\.$#"
 			count: 1
 			path: src/ClientInterface.php
 
 		-
-			message: "#^Method GuzzleHttp\\\\Cookie\\\\CookieJar\\:\\:__construct\\(\\) has parameter \\$cookieArray with no value type specified in iterable type array\\.$#"
+			message: "#^Method PvGuzzleHttp\\\\Cookie\\\\CookieJar\\:\\:__construct\\(\\) has parameter \\$cookieArray with no value type specified in iterable type array\\.$#"
 			count: 1
 			path: src/Cookie/CookieJar.php
 
 		-
-			message: "#^Method GuzzleHttp\\\\Cookie\\\\CookieJar\\:\\:fromArray\\(\\) has parameter \\$cookies with no value type specified in iterable type array\\.$#"
+			message: "#^Method PvGuzzleHttp\\\\Cookie\\\\CookieJar\\:\\:fromArray\\(\\) has parameter \\$cookies with no value type specified in iterable type array\\.$#"
 			count: 1
 			path: src/Cookie/CookieJar.php
 
 		-
-			message: "#^Method GuzzleHttp\\\\Cookie\\\\CookieJar\\:\\:fromArray\\(\\) return type has no value type specified in iterable type GuzzleHttp\\\\Cookie\\\\CookieJar\\.$#"
+			message: "#^Method PvGuzzleHttp\\\\Cookie\\\\CookieJar\\:\\:fromArray\\(\\) return type has no value type specified in iterable type PvGuzzleHttp\\\\Cookie\\\\CookieJar\\.$#"
 			count: 1
 			path: src/Cookie/CookieJar.php
 
 		-
-			message: "#^Method GuzzleHttp\\\\Cookie\\\\CookieJar\\:\\:getCookieValue\\(\\) has no return typehint specified\\.$#"
+			message: "#^Method PvGuzzleHttp\\\\Cookie\\\\CookieJar\\:\\:getCookieValue\\(\\) has no return typehint specified\\.$#"
 			count: 1
 			path: src/Cookie/CookieJar.php
 
 		-
-			message: "#^Method GuzzleHttp\\\\Cookie\\\\CookieJar\\:\\:getCookieValue\\(\\) has parameter \\$value with no typehint specified\\.$#"
+			message: "#^Method PvGuzzleHttp\\\\Cookie\\\\CookieJar\\:\\:getCookieValue\\(\\) has parameter \\$value with no typehint specified\\.$#"
 			count: 1
 			path: src/Cookie/CookieJar.php
 
@@ -136,7 +136,7 @@ parameters:
 			path: src/Cookie/CookieJar.php
 
 		-
-			message: "#^Method GuzzleHttp\\\\Cookie\\\\CookieJar\\:\\:toArray\\(\\) return type has no value type specified in iterable type array\\.$#"
+			message: "#^Method PvGuzzleHttp\\\\Cookie\\\\CookieJar\\:\\:toArray\\(\\) return type has no value type specified in iterable type array\\.$#"
 			count: 1
 			path: src/Cookie/CookieJar.php
 
@@ -146,32 +146,32 @@ parameters:
 			path: src/Cookie/CookieJar.php
 
 		-
-			message: "#^Method GuzzleHttp\\\\Cookie\\\\CookieJar\\:\\:clear\\(\\) return type has no value type specified in iterable type GuzzleHttp\\\\Cookie\\\\CookieJarInterface\\.$#"
+			message: "#^Method PvGuzzleHttp\\\\Cookie\\\\CookieJar\\:\\:clear\\(\\) return type has no value type specified in iterable type PvGuzzleHttp\\\\Cookie\\\\CookieJarInterface\\.$#"
 			count: 1
 			path: src/Cookie/CookieJar.php
 
 		-
-			message: "#^Method GuzzleHttp\\\\Cookie\\\\CookieJar\\:\\:clear\\(\\) should return GuzzleHttp\\\\Cookie\\\\CookieJarInterface but return statement is missing\\.$#"
+			message: "#^Method PvGuzzleHttp\\\\Cookie\\\\CookieJar\\:\\:clear\\(\\) should return PvGuzzleHttp\\\\Cookie\\\\CookieJarInterface but return statement is missing\\.$#"
 			count: 1
 			path: src/Cookie/CookieJar.php
 
 		-
-			message: "#^Method GuzzleHttp\\\\Cookie\\\\CookieJar\\:\\:clear\\(\\) should return GuzzleHttp\\\\Cookie\\\\CookieJarInterface but empty return statement found\\.$#"
+			message: "#^Method PvGuzzleHttp\\\\Cookie\\\\CookieJar\\:\\:clear\\(\\) should return PvGuzzleHttp\\\\Cookie\\\\CookieJarInterface but empty return statement found\\.$#"
 			count: 1
 			path: src/Cookie/CookieJar.php
 
 		-
-			message: "#^Method GuzzleHttp\\\\Cookie\\\\CookieJar\\:\\:clearSessionCookies\\(\\) has no return typehint specified\\.$#"
+			message: "#^Method PvGuzzleHttp\\\\Cookie\\\\CookieJar\\:\\:clearSessionCookies\\(\\) has no return typehint specified\\.$#"
 			count: 1
 			path: src/Cookie/CookieJar.php
 
 		-
-			message: "#^Method GuzzleHttp\\\\Cookie\\\\CookieJar\\:\\:getIterator\\(\\) return type has no value type specified in iterable type Traversable\\<mixed, mixed\\>\\.$#"
+			message: "#^Method PvGuzzleHttp\\\\Cookie\\\\CookieJar\\:\\:getIterator\\(\\) return type has no value type specified in iterable type Traversable\\<mixed, mixed\\>\\.$#"
 			count: 1
 			path: src/Cookie/CookieJar.php
 
 		-
-			message: "#^Method GuzzleHttp\\\\Cookie\\\\CookieJar\\:\\:extractCookies\\(\\) has no return typehint specified\\.$#"
+			message: "#^Method PvGuzzleHttp\\\\Cookie\\\\CookieJar\\:\\:extractCookies\\(\\) has no return typehint specified\\.$#"
 			count: 1
 			path: src/Cookie/CookieJar.php
 
@@ -181,107 +181,107 @@ parameters:
 			path: src/Cookie/CookieJar.php
 
 		-
-			message: "#^Method GuzzleHttp\\\\Cookie\\\\CookieJar\\:\\:removeCookieIfEmpty\\(\\) has no return typehint specified\\.$#"
+			message: "#^Method PvGuzzleHttp\\\\Cookie\\\\CookieJar\\:\\:removeCookieIfEmpty\\(\\) has no return typehint specified\\.$#"
 			count: 1
 			path: src/Cookie/CookieJar.php
 
 		-
-			message: "#^Interface GuzzleHttp\\\\Cookie\\\\CookieJarInterface extends generic interface IteratorAggregate but does not specify its types\\: TKey, TValue$#"
+			message: "#^Interface PvGuzzleHttp\\\\Cookie\\\\CookieJarInterface extends generic interface IteratorAggregate but does not specify its types\\: TKey, TValue$#"
 			count: 1
 			path: src/Cookie/CookieJarInterface.php
 
 		-
-			message: "#^Method GuzzleHttp\\\\Cookie\\\\CookieJarInterface\\:\\:extractCookies\\(\\) has no return typehint specified\\.$#"
+			message: "#^Method PvGuzzleHttp\\\\Cookie\\\\CookieJarInterface\\:\\:extractCookies\\(\\) has no return typehint specified\\.$#"
 			count: 1
 			path: src/Cookie/CookieJarInterface.php
 
 		-
-			message: "#^Method GuzzleHttp\\\\Cookie\\\\CookieJarInterface\\:\\:clear\\(\\) return type has no value type specified in iterable type GuzzleHttp\\\\Cookie\\\\CookieJarInterface\\.$#"
+			message: "#^Method PvGuzzleHttp\\\\Cookie\\\\CookieJarInterface\\:\\:clear\\(\\) return type has no value type specified in iterable type PvGuzzleHttp\\\\Cookie\\\\CookieJarInterface\\.$#"
 			count: 1
 			path: src/Cookie/CookieJarInterface.php
 
 		-
-			message: "#^Method GuzzleHttp\\\\Cookie\\\\CookieJarInterface\\:\\:clearSessionCookies\\(\\) has no return typehint specified\\.$#"
+			message: "#^Method PvGuzzleHttp\\\\Cookie\\\\CookieJarInterface\\:\\:clearSessionCookies\\(\\) has no return typehint specified\\.$#"
 			count: 1
 			path: src/Cookie/CookieJarInterface.php
 
 		-
-			message: "#^Method GuzzleHttp\\\\Cookie\\\\CookieJarInterface\\:\\:toArray\\(\\) return type has no value type specified in iterable type array\\.$#"
+			message: "#^Method PvGuzzleHttp\\\\Cookie\\\\CookieJarInterface\\:\\:toArray\\(\\) return type has no value type specified in iterable type array\\.$#"
 			count: 1
 			path: src/Cookie/CookieJarInterface.php
 
 		-
-			message: "#^Method GuzzleHttp\\\\Cookie\\\\FileCookieJar\\:\\:save\\(\\) has no return typehint specified\\.$#"
+			message: "#^Method PvGuzzleHttp\\\\Cookie\\\\FileCookieJar\\:\\:save\\(\\) has no return typehint specified\\.$#"
 			count: 1
 			path: src/Cookie/FileCookieJar.php
 
 		-
-			message: "#^Method GuzzleHttp\\\\Cookie\\\\FileCookieJar\\:\\:load\\(\\) has no return typehint specified\\.$#"
+			message: "#^Method PvGuzzleHttp\\\\Cookie\\\\FileCookieJar\\:\\:load\\(\\) has no return typehint specified\\.$#"
 			count: 1
 			path: src/Cookie/FileCookieJar.php
 
 		-
-			message: "#^Method GuzzleHttp\\\\Cookie\\\\SessionCookieJar\\:\\:save\\(\\) has no return typehint specified\\.$#"
+			message: "#^Method PvGuzzleHttp\\\\Cookie\\\\SessionCookieJar\\:\\:save\\(\\) has no return typehint specified\\.$#"
 			count: 1
 			path: src/Cookie/SessionCookieJar.php
 
 		-
-			message: "#^Method GuzzleHttp\\\\Cookie\\\\SessionCookieJar\\:\\:load\\(\\) has no return typehint specified\\.$#"
+			message: "#^Method PvGuzzleHttp\\\\Cookie\\\\SessionCookieJar\\:\\:load\\(\\) has no return typehint specified\\.$#"
 			count: 1
 			path: src/Cookie/SessionCookieJar.php
 
 		-
-			message: "#^Property GuzzleHttp\\\\Cookie\\\\SetCookie\\:\\:\\$defaults type has no value type specified in iterable type array\\.$#"
+			message: "#^Property PvGuzzleHttp\\\\Cookie\\\\SetCookie\\:\\:\\$defaults type has no value type specified in iterable type array\\.$#"
 			count: 1
 			path: src/Cookie/SetCookie.php
 
 		-
-			message: "#^Property GuzzleHttp\\\\Cookie\\\\SetCookie\\:\\:\\$data type has no value type specified in iterable type array\\.$#"
+			message: "#^Property PvGuzzleHttp\\\\Cookie\\\\SetCookie\\:\\:\\$data type has no value type specified in iterable type array\\.$#"
 			count: 1
 			path: src/Cookie/SetCookie.php
 
 		-
-			message: "#^Method GuzzleHttp\\\\Cookie\\\\SetCookie\\:\\:__construct\\(\\) has parameter \\$data with no value type specified in iterable type array\\.$#"
+			message: "#^Method PvGuzzleHttp\\\\Cookie\\\\SetCookie\\:\\:__construct\\(\\) has parameter \\$data with no value type specified in iterable type array\\.$#"
 			count: 1
 			path: src/Cookie/SetCookie.php
 
 		-
-			message: "#^Parameter \\#1 \\$timestamp of method GuzzleHttp\\\\Cookie\\\\SetCookie\\:\\:setExpires\\(\\) expects int, mixed given\\.$#"
+			message: "#^Parameter \\#1 \\$timestamp of method PvGuzzleHttp\\\\Cookie\\\\SetCookie\\:\\:setExpires\\(\\) expects int, mixed given\\.$#"
 			count: 1
 			path: src/Cookie/SetCookie.php
 
 		-
-			message: "#^Method GuzzleHttp\\\\Cookie\\\\SetCookie\\:\\:toArray\\(\\) has no return typehint specified\\.$#"
+			message: "#^Method PvGuzzleHttp\\\\Cookie\\\\SetCookie\\:\\:toArray\\(\\) has no return typehint specified\\.$#"
 			count: 1
 			path: src/Cookie/SetCookie.php
 
 		-
-			message: "#^Method GuzzleHttp\\\\Cookie\\\\SetCookie\\:\\:setName\\(\\) has no return typehint specified\\.$#"
+			message: "#^Method PvGuzzleHttp\\\\Cookie\\\\SetCookie\\:\\:setName\\(\\) has no return typehint specified\\.$#"
 			count: 1
 			path: src/Cookie/SetCookie.php
 
 		-
-			message: "#^Method GuzzleHttp\\\\Cookie\\\\SetCookie\\:\\:setValue\\(\\) has no return typehint specified\\.$#"
+			message: "#^Method PvGuzzleHttp\\\\Cookie\\\\SetCookie\\:\\:setValue\\(\\) has no return typehint specified\\.$#"
 			count: 1
 			path: src/Cookie/SetCookie.php
 
 		-
-			message: "#^Method GuzzleHttp\\\\Cookie\\\\SetCookie\\:\\:setDomain\\(\\) has no return typehint specified\\.$#"
+			message: "#^Method PvGuzzleHttp\\\\Cookie\\\\SetCookie\\:\\:setDomain\\(\\) has no return typehint specified\\.$#"
 			count: 1
 			path: src/Cookie/SetCookie.php
 
 		-
-			message: "#^Method GuzzleHttp\\\\Cookie\\\\SetCookie\\:\\:setPath\\(\\) has no return typehint specified\\.$#"
+			message: "#^Method PvGuzzleHttp\\\\Cookie\\\\SetCookie\\:\\:setPath\\(\\) has no return typehint specified\\.$#"
 			count: 1
 			path: src/Cookie/SetCookie.php
 
 		-
-			message: "#^Method GuzzleHttp\\\\Cookie\\\\SetCookie\\:\\:setMaxAge\\(\\) has no return typehint specified\\.$#"
+			message: "#^Method PvGuzzleHttp\\\\Cookie\\\\SetCookie\\:\\:setMaxAge\\(\\) has no return typehint specified\\.$#"
 			count: 1
 			path: src/Cookie/SetCookie.php
 
 		-
-			message: "#^Method GuzzleHttp\\\\Cookie\\\\SetCookie\\:\\:setExpires\\(\\) has no return typehint specified\\.$#"
+			message: "#^Method PvGuzzleHttp\\\\Cookie\\\\SetCookie\\:\\:setExpires\\(\\) has no return typehint specified\\.$#"
 			count: 1
 			path: src/Cookie/SetCookie.php
 
@@ -291,17 +291,17 @@ parameters:
 			path: src/Cookie/SetCookie.php
 
 		-
-			message: "#^Method GuzzleHttp\\\\Cookie\\\\SetCookie\\:\\:setSecure\\(\\) has no return typehint specified\\.$#"
+			message: "#^Method PvGuzzleHttp\\\\Cookie\\\\SetCookie\\:\\:setSecure\\(\\) has no return typehint specified\\.$#"
 			count: 1
 			path: src/Cookie/SetCookie.php
 
 		-
-			message: "#^Method GuzzleHttp\\\\Cookie\\\\SetCookie\\:\\:setDiscard\\(\\) has no return typehint specified\\.$#"
+			message: "#^Method PvGuzzleHttp\\\\Cookie\\\\SetCookie\\:\\:setDiscard\\(\\) has no return typehint specified\\.$#"
 			count: 1
 			path: src/Cookie/SetCookie.php
 
 		-
-			message: "#^Method GuzzleHttp\\\\Cookie\\\\SetCookie\\:\\:setHttpOnly\\(\\) has no return typehint specified\\.$#"
+			message: "#^Method PvGuzzleHttp\\\\Cookie\\\\SetCookie\\:\\:setHttpOnly\\(\\) has no return typehint specified\\.$#"
 			count: 1
 			path: src/Cookie/SetCookie.php
 
@@ -311,62 +311,62 @@ parameters:
 			path: src/Cookie/SetCookie.php
 
 		-
-			message: "#^Method GuzzleHttp\\\\Exception\\\\BadResponseException\\:\\:__construct\\(\\) has parameter \\$handlerContext with no value type specified in iterable type array\\.$#"
+			message: "#^Method PvGuzzleHttp\\\\Exception\\\\BadResponseException\\:\\:__construct\\(\\) has parameter \\$handlerContext with no value type specified in iterable type array\\.$#"
 			count: 1
 			path: src/Exception/BadResponseException.php
 
 		-
-			message: "#^Method GuzzleHttp\\\\Exception\\\\ConnectException\\:\\:__construct\\(\\) has parameter \\$handlerContext with no value type specified in iterable type array\\.$#"
+			message: "#^Method PvGuzzleHttp\\\\Exception\\\\ConnectException\\:\\:__construct\\(\\) has parameter \\$handlerContext with no value type specified in iterable type array\\.$#"
 			count: 1
 			path: src/Exception/ConnectException.php
 
 		-
-			message: "#^Property GuzzleHttp\\\\Exception\\\\RequestException\\:\\:\\$handlerContext type has no value type specified in iterable type array\\.$#"
+			message: "#^Property PvGuzzleHttp\\\\Exception\\\\RequestException\\:\\:\\$handlerContext type has no value type specified in iterable type array\\.$#"
 			count: 1
 			path: src/Exception/RequestException.php
 
 		-
-			message: "#^Method GuzzleHttp\\\\Exception\\\\RequestException\\:\\:__construct\\(\\) has parameter \\$handlerContext with no value type specified in iterable type array\\.$#"
+			message: "#^Method PvGuzzleHttp\\\\Exception\\\\RequestException\\:\\:__construct\\(\\) has parameter \\$handlerContext with no value type specified in iterable type array\\.$#"
 			count: 1
 			path: src/Exception/RequestException.php
 
 		-
-			message: "#^Method GuzzleHttp\\\\Exception\\\\RequestException\\:\\:create\\(\\) has parameter \\$ctx with no value type specified in iterable type array\\.$#"
+			message: "#^Method PvGuzzleHttp\\\\Exception\\\\RequestException\\:\\:create\\(\\) has parameter \\$ctx with no value type specified in iterable type array\\.$#"
 			count: 1
 			path: src/Exception/RequestException.php
 
 		-
-			message: "#^Method GuzzleHttp\\\\Exception\\\\RequestException\\:\\:getHandlerContext\\(\\) return type has no value type specified in iterable type array\\.$#"
+			message: "#^Method PvGuzzleHttp\\\\Exception\\\\RequestException\\:\\:getHandlerContext\\(\\) return type has no value type specified in iterable type array\\.$#"
 			count: 1
 			path: src/Exception/RequestException.php
 
 		-
-			message: "#^Property GuzzleHttp\\\\Exception\\\\SeekException\\:\\:\\$stream has no typehint specified\\.$#"
+			message: "#^Property PvGuzzleHttp\\\\Exception\\\\SeekException\\:\\:\\$stream has no typehint specified\\.$#"
 			count: 1
 			path: src/Exception/SeekException.php
 
 		-
-			message: "#^Method GuzzleHttp\\\\Exception\\\\SeekException\\:\\:__construct\\(\\) has parameter \\$msg with no typehint specified\\.$#"
+			message: "#^Method PvGuzzleHttp\\\\Exception\\\\SeekException\\:\\:__construct\\(\\) has parameter \\$msg with no typehint specified\\.$#"
 			count: 1
 			path: src/Exception/SeekException.php
 
 		-
-			message: "#^Method GuzzleHttp\\\\Exception\\\\SeekException\\:\\:__construct\\(\\) has parameter \\$pos with no typehint specified\\.$#"
+			message: "#^Method PvGuzzleHttp\\\\Exception\\\\SeekException\\:\\:__construct\\(\\) has parameter \\$pos with no typehint specified\\.$#"
 			count: 1
 			path: src/Exception/SeekException.php
 
 		-
-			message: "#^Property GuzzleHttp\\\\Handler\\\\CurlFactory\\:\\:\\$handles type has no value type specified in iterable type array\\.$#"
+			message: "#^Property PvGuzzleHttp\\\\Handler\\\\CurlFactory\\:\\:\\$handles type has no value type specified in iterable type array\\.$#"
 			count: 1
 			path: src/Handler/CurlFactory.php
 
 		-
-			message: "#^Method GuzzleHttp\\\\Handler\\\\CurlFactory\\:\\:create\\(\\) has parameter \\$options with no value type specified in iterable type array\\.$#"
+			message: "#^Method PvGuzzleHttp\\\\Handler\\\\CurlFactory\\:\\:create\\(\\) has parameter \\$options with no value type specified in iterable type array\\.$#"
 			count: 1
 			path: src/Handler/CurlFactory.php
 
 		-
-			message: "#^Method GuzzleHttp\\\\Handler\\\\CurlFactory\\:\\:release\\(\\) has no return typehint specified\\.$#"
+			message: "#^Method PvGuzzleHttp\\\\Handler\\\\CurlFactory\\:\\:release\\(\\) has no return typehint specified\\.$#"
 			count: 1
 			path: src/Handler/CurlFactory.php
 
@@ -376,22 +376,22 @@ parameters:
 			path: src/Handler/CurlFactory.php
 
 		-
-			message: "#^Method GuzzleHttp\\\\Handler\\\\CurlFactory\\:\\:invokeStats\\(\\) has no return typehint specified\\.$#"
+			message: "#^Method PvGuzzleHttp\\\\Handler\\\\CurlFactory\\:\\:invokeStats\\(\\) has no return typehint specified\\.$#"
 			count: 1
 			path: src/Handler/CurlFactory.php
 
 		-
-			message: "#^Method GuzzleHttp\\\\Handler\\\\CurlFactory\\:\\:finishError\\(\\) has no return typehint specified\\.$#"
+			message: "#^Method PvGuzzleHttp\\\\Handler\\\\CurlFactory\\:\\:finishError\\(\\) has no return typehint specified\\.$#"
 			count: 1
 			path: src/Handler/CurlFactory.php
 
 		-
-			message: "#^Method GuzzleHttp\\\\Handler\\\\CurlFactory\\:\\:createRejection\\(\\) has no return typehint specified\\.$#"
+			message: "#^Method PvGuzzleHttp\\\\Handler\\\\CurlFactory\\:\\:createRejection\\(\\) has no return typehint specified\\.$#"
 			count: 1
 			path: src/Handler/CurlFactory.php
 
 		-
-			message: "#^Method GuzzleHttp\\\\Handler\\\\CurlFactory\\:\\:createRejection\\(\\) has parameter \\$ctx with no value type specified in iterable type array\\.$#"
+			message: "#^Method PvGuzzleHttp\\\\Handler\\\\CurlFactory\\:\\:createRejection\\(\\) has parameter \\$ctx with no value type specified in iterable type array\\.$#"
 			count: 1
 			path: src/Handler/CurlFactory.php
 
@@ -406,52 +406,52 @@ parameters:
 			path: src/Handler/CurlFactory.php
 
 		-
-			message: "#^Method GuzzleHttp\\\\Handler\\\\CurlFactory\\:\\:getDefaultConf\\(\\) has no return typehint specified\\.$#"
+			message: "#^Method PvGuzzleHttp\\\\Handler\\\\CurlFactory\\:\\:getDefaultConf\\(\\) has no return typehint specified\\.$#"
 			count: 1
 			path: src/Handler/CurlFactory.php
 
 		-
-			message: "#^Method GuzzleHttp\\\\Handler\\\\CurlFactory\\:\\:applyMethod\\(\\) has no return typehint specified\\.$#"
+			message: "#^Method PvGuzzleHttp\\\\Handler\\\\CurlFactory\\:\\:applyMethod\\(\\) has no return typehint specified\\.$#"
 			count: 1
 			path: src/Handler/CurlFactory.php
 
 		-
-			message: "#^Method GuzzleHttp\\\\Handler\\\\CurlFactory\\:\\:applyMethod\\(\\) has parameter \\$conf with no value type specified in iterable type array\\.$#"
+			message: "#^Method PvGuzzleHttp\\\\Handler\\\\CurlFactory\\:\\:applyMethod\\(\\) has parameter \\$conf with no value type specified in iterable type array\\.$#"
 			count: 1
 			path: src/Handler/CurlFactory.php
 
 		-
-			message: "#^Method GuzzleHttp\\\\Handler\\\\CurlFactory\\:\\:applyBody\\(\\) has no return typehint specified\\.$#"
+			message: "#^Method PvGuzzleHttp\\\\Handler\\\\CurlFactory\\:\\:applyBody\\(\\) has no return typehint specified\\.$#"
 			count: 1
 			path: src/Handler/CurlFactory.php
 
 		-
-			message: "#^Method GuzzleHttp\\\\Handler\\\\CurlFactory\\:\\:applyBody\\(\\) has parameter \\$conf with no value type specified in iterable type array\\.$#"
+			message: "#^Method PvGuzzleHttp\\\\Handler\\\\CurlFactory\\:\\:applyBody\\(\\) has parameter \\$conf with no value type specified in iterable type array\\.$#"
 			count: 1
 			path: src/Handler/CurlFactory.php
 
 		-
-			message: "#^Method GuzzleHttp\\\\Handler\\\\CurlFactory\\:\\:applyBody\\(\\) has parameter \\$options with no value type specified in iterable type array\\.$#"
+			message: "#^Method PvGuzzleHttp\\\\Handler\\\\CurlFactory\\:\\:applyBody\\(\\) has parameter \\$options with no value type specified in iterable type array\\.$#"
 			count: 1
 			path: src/Handler/CurlFactory.php
 
 		-
-			message: "#^Method GuzzleHttp\\\\Handler\\\\CurlFactory\\:\\:applyHeaders\\(\\) has no return typehint specified\\.$#"
+			message: "#^Method PvGuzzleHttp\\\\Handler\\\\CurlFactory\\:\\:applyHeaders\\(\\) has no return typehint specified\\.$#"
 			count: 1
 			path: src/Handler/CurlFactory.php
 
 		-
-			message: "#^Method GuzzleHttp\\\\Handler\\\\CurlFactory\\:\\:applyHeaders\\(\\) has parameter \\$conf with no value type specified in iterable type array\\.$#"
+			message: "#^Method PvGuzzleHttp\\\\Handler\\\\CurlFactory\\:\\:applyHeaders\\(\\) has parameter \\$conf with no value type specified in iterable type array\\.$#"
 			count: 1
 			path: src/Handler/CurlFactory.php
 
 		-
-			message: "#^Method GuzzleHttp\\\\Handler\\\\CurlFactory\\:\\:removeHeader\\(\\) has no return typehint specified\\.$#"
+			message: "#^Method PvGuzzleHttp\\\\Handler\\\\CurlFactory\\:\\:removeHeader\\(\\) has no return typehint specified\\.$#"
 			count: 1
 			path: src/Handler/CurlFactory.php
 
 		-
-			message: "#^Method GuzzleHttp\\\\Handler\\\\CurlFactory\\:\\:removeHeader\\(\\) has parameter \\$options with no value type specified in iterable type array\\.$#"
+			message: "#^Method PvGuzzleHttp\\\\Handler\\\\CurlFactory\\:\\:removeHeader\\(\\) has parameter \\$options with no value type specified in iterable type array\\.$#"
 			count: 1
 			path: src/Handler/CurlFactory.php
 
@@ -461,12 +461,12 @@ parameters:
 			path: src/Handler/CurlFactory.php
 
 		-
-			message: "#^Method GuzzleHttp\\\\Handler\\\\CurlFactory\\:\\:applyHandlerOptions\\(\\) has no return typehint specified\\.$#"
+			message: "#^Method PvGuzzleHttp\\\\Handler\\\\CurlFactory\\:\\:applyHandlerOptions\\(\\) has no return typehint specified\\.$#"
 			count: 1
 			path: src/Handler/CurlFactory.php
 
 		-
-			message: "#^Method GuzzleHttp\\\\Handler\\\\CurlFactory\\:\\:applyHandlerOptions\\(\\) has parameter \\$conf with no value type specified in iterable type array\\.$#"
+			message: "#^Method PvGuzzleHttp\\\\Handler\\\\CurlFactory\\:\\:applyHandlerOptions\\(\\) has parameter \\$conf with no value type specified in iterable type array\\.$#"
 			count: 1
 			path: src/Handler/CurlFactory.php
 
@@ -476,87 +476,87 @@ parameters:
 			path: src/Handler/CurlFactory.php
 
 		-
-			message: "#^Method GuzzleHttp\\\\Handler\\\\CurlFactory\\:\\:retryFailedRewind\\(\\) has no return typehint specified\\.$#"
+			message: "#^Method PvGuzzleHttp\\\\Handler\\\\CurlFactory\\:\\:retryFailedRewind\\(\\) has no return typehint specified\\.$#"
 			count: 1
 			path: src/Handler/CurlFactory.php
 
 		-
-			message: "#^Method GuzzleHttp\\\\Handler\\\\CurlFactory\\:\\:retryFailedRewind\\(\\) has parameter \\$ctx with no value type specified in iterable type array\\.$#"
+			message: "#^Method PvGuzzleHttp\\\\Handler\\\\CurlFactory\\:\\:retryFailedRewind\\(\\) has parameter \\$ctx with no value type specified in iterable type array\\.$#"
 			count: 1
 			path: src/Handler/CurlFactory.php
 
 		-
-			message: "#^Method GuzzleHttp\\\\Handler\\\\CurlFactory\\:\\:createHeaderFn\\(\\) has no return typehint specified\\.$#"
+			message: "#^Method PvGuzzleHttp\\\\Handler\\\\CurlFactory\\:\\:createHeaderFn\\(\\) has no return typehint specified\\.$#"
 			count: 1
 			path: src/Handler/CurlFactory.php
 
 		-
-			message: "#^Method GuzzleHttp\\\\Handler\\\\CurlFactoryInterface\\:\\:create\\(\\) has parameter \\$options with no value type specified in iterable type array\\.$#"
+			message: "#^Method PvGuzzleHttp\\\\Handler\\\\CurlFactoryInterface\\:\\:create\\(\\) has parameter \\$options with no value type specified in iterable type array\\.$#"
 			count: 1
 			path: src/Handler/CurlFactoryInterface.php
 
 		-
-			message: "#^Method GuzzleHttp\\\\Handler\\\\CurlFactoryInterface\\:\\:release\\(\\) has no return typehint specified\\.$#"
+			message: "#^Method PvGuzzleHttp\\\\Handler\\\\CurlFactoryInterface\\:\\:release\\(\\) has no return typehint specified\\.$#"
 			count: 1
 			path: src/Handler/CurlFactoryInterface.php
 
 		-
-			message: "#^Method GuzzleHttp\\\\Handler\\\\CurlHandler\\:\\:__construct\\(\\) has parameter \\$options with no value type specified in iterable type array\\.$#"
+			message: "#^Method PvGuzzleHttp\\\\Handler\\\\CurlHandler\\:\\:__construct\\(\\) has parameter \\$options with no value type specified in iterable type array\\.$#"
 			count: 1
 			path: src/Handler/CurlHandler.php
 
 		-
-			message: "#^Method GuzzleHttp\\\\Handler\\\\CurlHandler\\:\\:__invoke\\(\\) has no return typehint specified\\.$#"
+			message: "#^Method PvGuzzleHttp\\\\Handler\\\\CurlHandler\\:\\:__invoke\\(\\) has no return typehint specified\\.$#"
 			count: 1
 			path: src/Handler/CurlHandler.php
 
 		-
-			message: "#^Method GuzzleHttp\\\\Handler\\\\CurlHandler\\:\\:__invoke\\(\\) has parameter \\$options with no value type specified in iterable type array\\.$#"
+			message: "#^Method PvGuzzleHttp\\\\Handler\\\\CurlHandler\\:\\:__invoke\\(\\) has parameter \\$options with no value type specified in iterable type array\\.$#"
 			count: 1
 			path: src/Handler/CurlHandler.php
 
 		-
-			message: "#^Property GuzzleHttp\\\\Handler\\\\CurlMultiHandler\\:\\:\\$selectTimeout has no typehint specified\\.$#"
+			message: "#^Property PvGuzzleHttp\\\\Handler\\\\CurlMultiHandler\\:\\:\\$selectTimeout has no typehint specified\\.$#"
 			count: 1
 			path: src/Handler/CurlMultiHandler.php
 
 		-
-			message: "#^Property GuzzleHttp\\\\Handler\\\\CurlMultiHandler\\:\\:\\$active has no typehint specified\\.$#"
+			message: "#^Property PvGuzzleHttp\\\\Handler\\\\CurlMultiHandler\\:\\:\\$active has no typehint specified\\.$#"
 			count: 1
 			path: src/Handler/CurlMultiHandler.php
 
 		-
-			message: "#^Property GuzzleHttp\\\\Handler\\\\CurlMultiHandler\\:\\:\\$handles has no typehint specified\\.$#"
+			message: "#^Property PvGuzzleHttp\\\\Handler\\\\CurlMultiHandler\\:\\:\\$handles has no typehint specified\\.$#"
 			count: 1
 			path: src/Handler/CurlMultiHandler.php
 
 		-
-			message: "#^Property GuzzleHttp\\\\Handler\\\\CurlMultiHandler\\:\\:\\$delays has no typehint specified\\.$#"
+			message: "#^Property PvGuzzleHttp\\\\Handler\\\\CurlMultiHandler\\:\\:\\$delays has no typehint specified\\.$#"
 			count: 1
 			path: src/Handler/CurlMultiHandler.php
 
 		-
-			message: "#^Property GuzzleHttp\\\\Handler\\\\CurlMultiHandler\\:\\:\\$options has no typehint specified\\.$#"
+			message: "#^Property PvGuzzleHttp\\\\Handler\\\\CurlMultiHandler\\:\\:\\$options has no typehint specified\\.$#"
 			count: 1
 			path: src/Handler/CurlMultiHandler.php
 
 		-
-			message: "#^Method GuzzleHttp\\\\Handler\\\\CurlMultiHandler\\:\\:__construct\\(\\) has parameter \\$options with no value type specified in iterable type array\\.$#"
+			message: "#^Method PvGuzzleHttp\\\\Handler\\\\CurlMultiHandler\\:\\:__construct\\(\\) has parameter \\$options with no value type specified in iterable type array\\.$#"
 			count: 1
 			path: src/Handler/CurlMultiHandler.php
 
 		-
-			message: "#^Method GuzzleHttp\\\\Handler\\\\CurlMultiHandler\\:\\:__get\\(\\) has no return typehint specified\\.$#"
+			message: "#^Method PvGuzzleHttp\\\\Handler\\\\CurlMultiHandler\\:\\:__get\\(\\) has no return typehint specified\\.$#"
 			count: 1
 			path: src/Handler/CurlMultiHandler.php
 
 		-
-			message: "#^Method GuzzleHttp\\\\Handler\\\\CurlMultiHandler\\:\\:__get\\(\\) has parameter \\$name with no typehint specified\\.$#"
+			message: "#^Method PvGuzzleHttp\\\\Handler\\\\CurlMultiHandler\\:\\:__get\\(\\) has parameter \\$name with no typehint specified\\.$#"
 			count: 1
 			path: src/Handler/CurlMultiHandler.php
 
 		-
-			message: "#^Property GuzzleHttp\\\\Handler\\\\CurlMultiHandler\\:\\:\\$_mh \\(resource\\) does not accept resource\\|false\\.$#"
+			message: "#^Property PvGuzzleHttp\\\\Handler\\\\CurlMultiHandler\\:\\:\\$_mh \\(resource\\) does not accept resource\\|false\\.$#"
 			count: 1
 			path: src/Handler/CurlMultiHandler.php
 
@@ -566,107 +566,107 @@ parameters:
 			path: src/Handler/CurlMultiHandler.php
 
 		-
-			message: "#^Method GuzzleHttp\\\\Handler\\\\CurlMultiHandler\\:\\:__invoke\\(\\) has no return typehint specified\\.$#"
+			message: "#^Method PvGuzzleHttp\\\\Handler\\\\CurlMultiHandler\\:\\:__invoke\\(\\) has no return typehint specified\\.$#"
 			count: 1
 			path: src/Handler/CurlMultiHandler.php
 
 		-
-			message: "#^Method GuzzleHttp\\\\Handler\\\\CurlMultiHandler\\:\\:__invoke\\(\\) has parameter \\$options with no value type specified in iterable type array\\.$#"
+			message: "#^Method PvGuzzleHttp\\\\Handler\\\\CurlMultiHandler\\:\\:__invoke\\(\\) has parameter \\$options with no value type specified in iterable type array\\.$#"
 			count: 1
 			path: src/Handler/CurlMultiHandler.php
 
 		-
-			message: "#^Method GuzzleHttp\\\\Handler\\\\CurlMultiHandler\\:\\:tick\\(\\) has no return typehint specified\\.$#"
+			message: "#^Method PvGuzzleHttp\\\\Handler\\\\CurlMultiHandler\\:\\:tick\\(\\) has no return typehint specified\\.$#"
 			count: 1
 			path: src/Handler/CurlMultiHandler.php
 
 		-
-			message: "#^Method GuzzleHttp\\\\Handler\\\\CurlMultiHandler\\:\\:execute\\(\\) has no return typehint specified\\.$#"
+			message: "#^Method PvGuzzleHttp\\\\Handler\\\\CurlMultiHandler\\:\\:execute\\(\\) has no return typehint specified\\.$#"
 			count: 1
 			path: src/Handler/CurlMultiHandler.php
 
 		-
-			message: "#^Method GuzzleHttp\\\\Handler\\\\CurlMultiHandler\\:\\:addRequest\\(\\) has no return typehint specified\\.$#"
+			message: "#^Method PvGuzzleHttp\\\\Handler\\\\CurlMultiHandler\\:\\:addRequest\\(\\) has no return typehint specified\\.$#"
 			count: 1
 			path: src/Handler/CurlMultiHandler.php
 
 		-
-			message: "#^Method GuzzleHttp\\\\Handler\\\\CurlMultiHandler\\:\\:addRequest\\(\\) has parameter \\$entry with no value type specified in iterable type array\\.$#"
+			message: "#^Method PvGuzzleHttp\\\\Handler\\\\CurlMultiHandler\\:\\:addRequest\\(\\) has parameter \\$entry with no value type specified in iterable type array\\.$#"
 			count: 1
 			path: src/Handler/CurlMultiHandler.php
 
 		-
-			message: "#^Method GuzzleHttp\\\\Handler\\\\CurlMultiHandler\\:\\:processMessages\\(\\) has no return typehint specified\\.$#"
+			message: "#^Method PvGuzzleHttp\\\\Handler\\\\CurlMultiHandler\\:\\:processMessages\\(\\) has no return typehint specified\\.$#"
 			count: 1
 			path: src/Handler/CurlMultiHandler.php
 
 		-
-			message: "#^Method GuzzleHttp\\\\Handler\\\\CurlMultiHandler\\:\\:timeToNext\\(\\) has no return typehint specified\\.$#"
+			message: "#^Method PvGuzzleHttp\\\\Handler\\\\CurlMultiHandler\\:\\:timeToNext\\(\\) has no return typehint specified\\.$#"
 			count: 1
 			path: src/Handler/CurlMultiHandler.php
 
 		-
-			message: "#^Property GuzzleHttp\\\\Handler\\\\EasyHandle\\:\\:\\$headers type has no value type specified in iterable type array\\.$#"
+			message: "#^Property PvGuzzleHttp\\\\Handler\\\\EasyHandle\\:\\:\\$headers type has no value type specified in iterable type array\\.$#"
 			count: 1
 			path: src/Handler/EasyHandle.php
 
 		-
-			message: "#^Property GuzzleHttp\\\\Handler\\\\EasyHandle\\:\\:\\$options type has no value type specified in iterable type array\\.$#"
+			message: "#^Property PvGuzzleHttp\\\\Handler\\\\EasyHandle\\:\\:\\$options type has no value type specified in iterable type array\\.$#"
 			count: 1
 			path: src/Handler/EasyHandle.php
 
 		-
-			message: "#^Method GuzzleHttp\\\\Handler\\\\EasyHandle\\:\\:createResponse\\(\\) has no return typehint specified\\.$#"
+			message: "#^Method PvGuzzleHttp\\\\Handler\\\\EasyHandle\\:\\:createResponse\\(\\) has no return typehint specified\\.$#"
 			count: 1
 			path: src/Handler/EasyHandle.php
 
 		-
-			message: "#^Parameter \\#1 \\$status of class GuzzleHttp\\\\Psr7\\\\Response constructor expects int, string given\\.$#"
+			message: "#^Parameter \\#1 \\$status of class PvGuzzleHttp\\\\Psr7\\\\Response constructor expects int, string given\\.$#"
 			count: 1
 			path: src/Handler/EasyHandle.php
 
 		-
-			message: "#^Method GuzzleHttp\\\\Handler\\\\EasyHandle\\:\\:__get\\(\\) has no return typehint specified\\.$#"
+			message: "#^Method PvGuzzleHttp\\\\Handler\\\\EasyHandle\\:\\:__get\\(\\) has no return typehint specified\\.$#"
 			count: 1
 			path: src/Handler/EasyHandle.php
 
 		-
-			message: "#^Method GuzzleHttp\\\\Handler\\\\EasyHandle\\:\\:__get\\(\\) has parameter \\$name with no typehint specified\\.$#"
+			message: "#^Method PvGuzzleHttp\\\\Handler\\\\EasyHandle\\:\\:__get\\(\\) has parameter \\$name with no typehint specified\\.$#"
 			count: 1
 			path: src/Handler/EasyHandle.php
 
 		-
-			message: "#^Property GuzzleHttp\\\\Handler\\\\MockHandler\\:\\:\\$queue has no typehint specified\\.$#"
+			message: "#^Property PvGuzzleHttp\\\\Handler\\\\MockHandler\\:\\:\\$queue has no typehint specified\\.$#"
 			count: 1
 			path: src/Handler/MockHandler.php
 
 		-
-			message: "#^Property GuzzleHttp\\\\Handler\\\\MockHandler\\:\\:\\$lastRequest has no typehint specified\\.$#"
+			message: "#^Property PvGuzzleHttp\\\\Handler\\\\MockHandler\\:\\:\\$lastRequest has no typehint specified\\.$#"
 			count: 1
 			path: src/Handler/MockHandler.php
 
 		-
-			message: "#^Property GuzzleHttp\\\\Handler\\\\MockHandler\\:\\:\\$lastOptions has no typehint specified\\.$#"
+			message: "#^Property PvGuzzleHttp\\\\Handler\\\\MockHandler\\:\\:\\$lastOptions has no typehint specified\\.$#"
 			count: 1
 			path: src/Handler/MockHandler.php
 
 		-
-			message: "#^Property GuzzleHttp\\\\Handler\\\\MockHandler\\:\\:\\$onFulfilled has no typehint specified\\.$#"
+			message: "#^Property PvGuzzleHttp\\\\Handler\\\\MockHandler\\:\\:\\$onFulfilled has no typehint specified\\.$#"
 			count: 1
 			path: src/Handler/MockHandler.php
 
 		-
-			message: "#^Property GuzzleHttp\\\\Handler\\\\MockHandler\\:\\:\\$onRejected has no typehint specified\\.$#"
+			message: "#^Property PvGuzzleHttp\\\\Handler\\\\MockHandler\\:\\:\\$onRejected has no typehint specified\\.$#"
 			count: 1
 			path: src/Handler/MockHandler.php
 
 		-
-			message: "#^Method GuzzleHttp\\\\Handler\\\\MockHandler\\:\\:createWithMiddleware\\(\\) has parameter \\$queue with no value type specified in iterable type array\\.$#"
+			message: "#^Method PvGuzzleHttp\\\\Handler\\\\MockHandler\\:\\:createWithMiddleware\\(\\) has parameter \\$queue with no value type specified in iterable type array\\.$#"
 			count: 1
 			path: src/Handler/MockHandler.php
 
 		-
-			message: "#^Method GuzzleHttp\\\\Handler\\\\MockHandler\\:\\:__construct\\(\\) has parameter \\$queue with no value type specified in iterable type array\\.$#"
+			message: "#^Method PvGuzzleHttp\\\\Handler\\\\MockHandler\\:\\:__construct\\(\\) has parameter \\$queue with no value type specified in iterable type array\\.$#"
 			count: 1
 			path: src/Handler/MockHandler.php
 
@@ -676,12 +676,12 @@ parameters:
 			path: src/Handler/MockHandler.php
 
 		-
-			message: "#^Method GuzzleHttp\\\\Handler\\\\MockHandler\\:\\:__invoke\\(\\) has no return typehint specified\\.$#"
+			message: "#^Method PvGuzzleHttp\\\\Handler\\\\MockHandler\\:\\:__invoke\\(\\) has no return typehint specified\\.$#"
 			count: 1
 			path: src/Handler/MockHandler.php
 
 		-
-			message: "#^Method GuzzleHttp\\\\Handler\\\\MockHandler\\:\\:__invoke\\(\\) has parameter \\$options with no value type specified in iterable type array\\.$#"
+			message: "#^Method PvGuzzleHttp\\\\Handler\\\\MockHandler\\:\\:__invoke\\(\\) has parameter \\$options with no value type specified in iterable type array\\.$#"
 			count: 1
 			path: src/Handler/MockHandler.php
 
@@ -691,117 +691,117 @@ parameters:
 			path: src/Handler/MockHandler.php
 
 		-
-			message: "#^Method GuzzleHttp\\\\Handler\\\\MockHandler\\:\\:append\\(\\) has no return typehint specified\\.$#"
+			message: "#^Method PvGuzzleHttp\\\\Handler\\\\MockHandler\\:\\:append\\(\\) has no return typehint specified\\.$#"
 			count: 1
 			path: src/Handler/MockHandler.php
 
 		-
-			message: "#^Method GuzzleHttp\\\\Handler\\\\MockHandler\\:\\:getLastOptions\\(\\) return type has no value type specified in iterable type array\\.$#"
+			message: "#^Method PvGuzzleHttp\\\\Handler\\\\MockHandler\\:\\:getLastOptions\\(\\) return type has no value type specified in iterable type array\\.$#"
 			count: 1
 			path: src/Handler/MockHandler.php
 
 		-
-			message: "#^Method GuzzleHttp\\\\Handler\\\\MockHandler\\:\\:reset\\(\\) has no return typehint specified\\.$#"
+			message: "#^Method PvGuzzleHttp\\\\Handler\\\\MockHandler\\:\\:reset\\(\\) has no return typehint specified\\.$#"
 			count: 1
 			path: src/Handler/MockHandler.php
 
 		-
-			message: "#^Method GuzzleHttp\\\\Handler\\\\MockHandler\\:\\:invokeStats\\(\\) has no return typehint specified\\.$#"
+			message: "#^Method PvGuzzleHttp\\\\Handler\\\\MockHandler\\:\\:invokeStats\\(\\) has no return typehint specified\\.$#"
 			count: 1
 			path: src/Handler/MockHandler.php
 
 		-
-			message: "#^Method GuzzleHttp\\\\Handler\\\\MockHandler\\:\\:invokeStats\\(\\) has parameter \\$options with no value type specified in iterable type array\\.$#"
+			message: "#^Method PvGuzzleHttp\\\\Handler\\\\MockHandler\\:\\:invokeStats\\(\\) has parameter \\$options with no value type specified in iterable type array\\.$#"
 			count: 1
 			path: src/Handler/MockHandler.php
 
 		-
-			message: "#^Method GuzzleHttp\\\\Handler\\\\MockHandler\\:\\:invokeStats\\(\\) has parameter \\$reason with no typehint specified\\.$#"
+			message: "#^Method PvGuzzleHttp\\\\Handler\\\\MockHandler\\:\\:invokeStats\\(\\) has parameter \\$reason with no typehint specified\\.$#"
 			count: 1
 			path: src/Handler/MockHandler.php
 
 		-
-			message: "#^Property GuzzleHttp\\\\Handler\\\\StreamHandler\\:\\:\\$lastHeaders has no typehint specified\\.$#"
+			message: "#^Property PvGuzzleHttp\\\\Handler\\\\StreamHandler\\:\\:\\$lastHeaders has no typehint specified\\.$#"
 			count: 1
 			path: src/Handler/StreamHandler.php
 
 		-
-			message: "#^Method GuzzleHttp\\\\Handler\\\\StreamHandler\\:\\:__invoke\\(\\) has parameter \\$options with no value type specified in iterable type array\\.$#"
+			message: "#^Method PvGuzzleHttp\\\\Handler\\\\StreamHandler\\:\\:__invoke\\(\\) has parameter \\$options with no value type specified in iterable type array\\.$#"
 			count: 1
 			path: src/Handler/StreamHandler.php
 
 		-
-			message: "#^Method GuzzleHttp\\\\Handler\\\\StreamHandler\\:\\:invokeStats\\(\\) has no return typehint specified\\.$#"
+			message: "#^Method PvGuzzleHttp\\\\Handler\\\\StreamHandler\\:\\:invokeStats\\(\\) has no return typehint specified\\.$#"
 			count: 1
 			path: src/Handler/StreamHandler.php
 
 		-
-			message: "#^Method GuzzleHttp\\\\Handler\\\\StreamHandler\\:\\:invokeStats\\(\\) has parameter \\$error with no typehint specified\\.$#"
+			message: "#^Method PvGuzzleHttp\\\\Handler\\\\StreamHandler\\:\\:invokeStats\\(\\) has parameter \\$error with no typehint specified\\.$#"
 			count: 1
 			path: src/Handler/StreamHandler.php
 
 		-
-			message: "#^Method GuzzleHttp\\\\Handler\\\\StreamHandler\\:\\:invokeStats\\(\\) has parameter \\$options with no value type specified in iterable type array\\.$#"
+			message: "#^Method PvGuzzleHttp\\\\Handler\\\\StreamHandler\\:\\:invokeStats\\(\\) has parameter \\$options with no value type specified in iterable type array\\.$#"
 			count: 1
 			path: src/Handler/StreamHandler.php
 
 		-
-			message: "#^Method GuzzleHttp\\\\Handler\\\\StreamHandler\\:\\:invokeStats\\(\\) has parameter \\$startTime with no typehint specified\\.$#"
+			message: "#^Method PvGuzzleHttp\\\\Handler\\\\StreamHandler\\:\\:invokeStats\\(\\) has parameter \\$startTime with no typehint specified\\.$#"
 			count: 1
 			path: src/Handler/StreamHandler.php
 
 		-
-			message: "#^Method GuzzleHttp\\\\Handler\\\\StreamHandler\\:\\:createResponse\\(\\) has no return typehint specified\\.$#"
+			message: "#^Method PvGuzzleHttp\\\\Handler\\\\StreamHandler\\:\\:createResponse\\(\\) has no return typehint specified\\.$#"
 			count: 1
 			path: src/Handler/StreamHandler.php
 
 		-
-			message: "#^Method GuzzleHttp\\\\Handler\\\\StreamHandler\\:\\:createResponse\\(\\) has parameter \\$options with no value type specified in iterable type array\\.$#"
+			message: "#^Method PvGuzzleHttp\\\\Handler\\\\StreamHandler\\:\\:createResponse\\(\\) has parameter \\$options with no value type specified in iterable type array\\.$#"
 			count: 1
 			path: src/Handler/StreamHandler.php
 
 		-
-			message: "#^Method GuzzleHttp\\\\Handler\\\\StreamHandler\\:\\:createResponse\\(\\) has parameter \\$startTime with no typehint specified\\.$#"
+			message: "#^Method PvGuzzleHttp\\\\Handler\\\\StreamHandler\\:\\:createResponse\\(\\) has parameter \\$startTime with no typehint specified\\.$#"
 			count: 1
 			path: src/Handler/StreamHandler.php
 
 		-
-			message: "#^Method GuzzleHttp\\\\Handler\\\\StreamHandler\\:\\:createResponse\\(\\) has parameter \\$stream with no typehint specified\\.$#"
+			message: "#^Method PvGuzzleHttp\\\\Handler\\\\StreamHandler\\:\\:createResponse\\(\\) has parameter \\$stream with no typehint specified\\.$#"
 			count: 1
 			path: src/Handler/StreamHandler.php
 
 		-
-			message: "#^Parameter \\#1 \\$status of class GuzzleHttp\\\\Psr7\\\\Response constructor expects int, string given\\.$#"
+			message: "#^Parameter \\#1 \\$status of class PvGuzzleHttp\\\\Psr7\\\\Response constructor expects int, string given\\.$#"
 			count: 1
 			path: src/Handler/StreamHandler.php
 
 		-
-			message: "#^Method GuzzleHttp\\\\Handler\\\\StreamHandler\\:\\:createSink\\(\\) has no return typehint specified\\.$#"
+			message: "#^Method PvGuzzleHttp\\\\Handler\\\\StreamHandler\\:\\:createSink\\(\\) has no return typehint specified\\.$#"
 			count: 1
 			path: src/Handler/StreamHandler.php
 
 		-
-			message: "#^Method GuzzleHttp\\\\Handler\\\\StreamHandler\\:\\:createSink\\(\\) has parameter \\$options with no value type specified in iterable type array\\.$#"
+			message: "#^Method PvGuzzleHttp\\\\Handler\\\\StreamHandler\\:\\:createSink\\(\\) has parameter \\$options with no value type specified in iterable type array\\.$#"
 			count: 1
 			path: src/Handler/StreamHandler.php
 
 		-
-			message: "#^Method GuzzleHttp\\\\Handler\\\\StreamHandler\\:\\:checkDecode\\(\\) has no return typehint specified\\.$#"
+			message: "#^Method PvGuzzleHttp\\\\Handler\\\\StreamHandler\\:\\:checkDecode\\(\\) has no return typehint specified\\.$#"
 			count: 1
 			path: src/Handler/StreamHandler.php
 
 		-
-			message: "#^Method GuzzleHttp\\\\Handler\\\\StreamHandler\\:\\:checkDecode\\(\\) has parameter \\$headers with no value type specified in iterable type array\\.$#"
+			message: "#^Method PvGuzzleHttp\\\\Handler\\\\StreamHandler\\:\\:checkDecode\\(\\) has parameter \\$headers with no value type specified in iterable type array\\.$#"
 			count: 1
 			path: src/Handler/StreamHandler.php
 
 		-
-			message: "#^Method GuzzleHttp\\\\Handler\\\\StreamHandler\\:\\:checkDecode\\(\\) has parameter \\$options with no value type specified in iterable type array\\.$#"
+			message: "#^Method PvGuzzleHttp\\\\Handler\\\\StreamHandler\\:\\:checkDecode\\(\\) has parameter \\$options with no value type specified in iterable type array\\.$#"
 			count: 1
 			path: src/Handler/StreamHandler.php
 
 		-
-			message: "#^Method GuzzleHttp\\\\Handler\\\\StreamHandler\\:\\:checkDecode\\(\\) has parameter \\$stream with no typehint specified\\.$#"
+			message: "#^Method PvGuzzleHttp\\\\Handler\\\\StreamHandler\\:\\:checkDecode\\(\\) has parameter \\$stream with no typehint specified\\.$#"
 			count: 1
 			path: src/Handler/StreamHandler.php
 
@@ -811,12 +811,12 @@ parameters:
 			path: src/Handler/StreamHandler.php
 
 		-
-			message: "#^Method GuzzleHttp\\\\Handler\\\\StreamHandler\\:\\:createStream\\(\\) has no return typehint specified\\.$#"
+			message: "#^Method PvGuzzleHttp\\\\Handler\\\\StreamHandler\\:\\:createStream\\(\\) has no return typehint specified\\.$#"
 			count: 1
 			path: src/Handler/StreamHandler.php
 
 		-
-			message: "#^Method GuzzleHttp\\\\Handler\\\\StreamHandler\\:\\:createStream\\(\\) has parameter \\$options with no value type specified in iterable type array\\.$#"
+			message: "#^Method PvGuzzleHttp\\\\Handler\\\\StreamHandler\\:\\:createStream\\(\\) has parameter \\$options with no value type specified in iterable type array\\.$#"
 			count: 1
 			path: src/Handler/StreamHandler.php
 
@@ -831,12 +831,12 @@ parameters:
 			path: src/Handler/StreamHandler.php
 
 		-
-			message: "#^Method GuzzleHttp\\\\Handler\\\\StreamHandler\\:\\:resolveHost\\(\\) has no return typehint specified\\.$#"
+			message: "#^Method PvGuzzleHttp\\\\Handler\\\\StreamHandler\\:\\:resolveHost\\(\\) has no return typehint specified\\.$#"
 			count: 1
 			path: src/Handler/StreamHandler.php
 
 		-
-			message: "#^Method GuzzleHttp\\\\Handler\\\\StreamHandler\\:\\:resolveHost\\(\\) has parameter \\$options with no value type specified in iterable type array\\.$#"
+			message: "#^Method PvGuzzleHttp\\\\Handler\\\\StreamHandler\\:\\:resolveHost\\(\\) has parameter \\$options with no value type specified in iterable type array\\.$#"
 			count: 1
 			path: src/Handler/StreamHandler.php
 
@@ -846,197 +846,197 @@ parameters:
 			path: src/Handler/StreamHandler.php
 
 		-
-			message: "#^Method GuzzleHttp\\\\Handler\\\\StreamHandler\\:\\:getDefaultContext\\(\\) has no return typehint specified\\.$#"
+			message: "#^Method PvGuzzleHttp\\\\Handler\\\\StreamHandler\\:\\:getDefaultContext\\(\\) has no return typehint specified\\.$#"
 			count: 1
 			path: src/Handler/StreamHandler.php
 
 		-
-			message: "#^Method GuzzleHttp\\\\Handler\\\\StreamHandler\\:\\:add_proxy\\(\\) has no return typehint specified\\.$#"
+			message: "#^Method PvGuzzleHttp\\\\Handler\\\\StreamHandler\\:\\:add_proxy\\(\\) has no return typehint specified\\.$#"
 			count: 1
 			path: src/Handler/StreamHandler.php
 
 		-
-			message: "#^Method GuzzleHttp\\\\Handler\\\\StreamHandler\\:\\:add_proxy\\(\\) has parameter \\$options with no typehint specified\\.$#"
+			message: "#^Method PvGuzzleHttp\\\\Handler\\\\StreamHandler\\:\\:add_proxy\\(\\) has parameter \\$options with no typehint specified\\.$#"
 			count: 1
 			path: src/Handler/StreamHandler.php
 
 		-
-			message: "#^Method GuzzleHttp\\\\Handler\\\\StreamHandler\\:\\:add_proxy\\(\\) has parameter \\$params with no typehint specified\\.$#"
+			message: "#^Method PvGuzzleHttp\\\\Handler\\\\StreamHandler\\:\\:add_proxy\\(\\) has parameter \\$params with no typehint specified\\.$#"
 			count: 1
 			path: src/Handler/StreamHandler.php
 
 		-
-			message: "#^Method GuzzleHttp\\\\Handler\\\\StreamHandler\\:\\:add_proxy\\(\\) has parameter \\$value with no typehint specified\\.$#"
+			message: "#^Method PvGuzzleHttp\\\\Handler\\\\StreamHandler\\:\\:add_proxy\\(\\) has parameter \\$value with no typehint specified\\.$#"
 			count: 1
 			path: src/Handler/StreamHandler.php
 
 		-
-			message: "#^Method GuzzleHttp\\\\Handler\\\\StreamHandler\\:\\:add_timeout\\(\\) has no return typehint specified\\.$#"
+			message: "#^Method PvGuzzleHttp\\\\Handler\\\\StreamHandler\\:\\:add_timeout\\(\\) has no return typehint specified\\.$#"
 			count: 1
 			path: src/Handler/StreamHandler.php
 
 		-
-			message: "#^Method GuzzleHttp\\\\Handler\\\\StreamHandler\\:\\:add_timeout\\(\\) has parameter \\$options with no typehint specified\\.$#"
+			message: "#^Method PvGuzzleHttp\\\\Handler\\\\StreamHandler\\:\\:add_timeout\\(\\) has parameter \\$options with no typehint specified\\.$#"
 			count: 1
 			path: src/Handler/StreamHandler.php
 
 		-
-			message: "#^Method GuzzleHttp\\\\Handler\\\\StreamHandler\\:\\:add_timeout\\(\\) has parameter \\$params with no typehint specified\\.$#"
+			message: "#^Method PvGuzzleHttp\\\\Handler\\\\StreamHandler\\:\\:add_timeout\\(\\) has parameter \\$params with no typehint specified\\.$#"
 			count: 1
 			path: src/Handler/StreamHandler.php
 
 		-
-			message: "#^Method GuzzleHttp\\\\Handler\\\\StreamHandler\\:\\:add_timeout\\(\\) has parameter \\$value with no typehint specified\\.$#"
+			message: "#^Method PvGuzzleHttp\\\\Handler\\\\StreamHandler\\:\\:add_timeout\\(\\) has parameter \\$value with no typehint specified\\.$#"
 			count: 1
 			path: src/Handler/StreamHandler.php
 
 		-
-			message: "#^Method GuzzleHttp\\\\Handler\\\\StreamHandler\\:\\:add_verify\\(\\) has no return typehint specified\\.$#"
+			message: "#^Method PvGuzzleHttp\\\\Handler\\\\StreamHandler\\:\\:add_verify\\(\\) has no return typehint specified\\.$#"
 			count: 1
 			path: src/Handler/StreamHandler.php
 
 		-
-			message: "#^Method GuzzleHttp\\\\Handler\\\\StreamHandler\\:\\:add_verify\\(\\) has parameter \\$options with no typehint specified\\.$#"
+			message: "#^Method PvGuzzleHttp\\\\Handler\\\\StreamHandler\\:\\:add_verify\\(\\) has parameter \\$options with no typehint specified\\.$#"
 			count: 1
 			path: src/Handler/StreamHandler.php
 
 		-
-			message: "#^Method GuzzleHttp\\\\Handler\\\\StreamHandler\\:\\:add_verify\\(\\) has parameter \\$params with no typehint specified\\.$#"
+			message: "#^Method PvGuzzleHttp\\\\Handler\\\\StreamHandler\\:\\:add_verify\\(\\) has parameter \\$params with no typehint specified\\.$#"
 			count: 1
 			path: src/Handler/StreamHandler.php
 
 		-
-			message: "#^Method GuzzleHttp\\\\Handler\\\\StreamHandler\\:\\:add_verify\\(\\) has parameter \\$value with no typehint specified\\.$#"
+			message: "#^Method PvGuzzleHttp\\\\Handler\\\\StreamHandler\\:\\:add_verify\\(\\) has parameter \\$value with no typehint specified\\.$#"
 			count: 1
 			path: src/Handler/StreamHandler.php
 
 		-
-			message: "#^Method GuzzleHttp\\\\Handler\\\\StreamHandler\\:\\:add_cert\\(\\) has no return typehint specified\\.$#"
+			message: "#^Method PvGuzzleHttp\\\\Handler\\\\StreamHandler\\:\\:add_cert\\(\\) has no return typehint specified\\.$#"
 			count: 1
 			path: src/Handler/StreamHandler.php
 
 		-
-			message: "#^Method GuzzleHttp\\\\Handler\\\\StreamHandler\\:\\:add_cert\\(\\) has parameter \\$options with no typehint specified\\.$#"
+			message: "#^Method PvGuzzleHttp\\\\Handler\\\\StreamHandler\\:\\:add_cert\\(\\) has parameter \\$options with no typehint specified\\.$#"
 			count: 1
 			path: src/Handler/StreamHandler.php
 
 		-
-			message: "#^Method GuzzleHttp\\\\Handler\\\\StreamHandler\\:\\:add_cert\\(\\) has parameter \\$params with no typehint specified\\.$#"
+			message: "#^Method PvGuzzleHttp\\\\Handler\\\\StreamHandler\\:\\:add_cert\\(\\) has parameter \\$params with no typehint specified\\.$#"
 			count: 1
 			path: src/Handler/StreamHandler.php
 
 		-
-			message: "#^Method GuzzleHttp\\\\Handler\\\\StreamHandler\\:\\:add_cert\\(\\) has parameter \\$value with no typehint specified\\.$#"
+			message: "#^Method PvGuzzleHttp\\\\Handler\\\\StreamHandler\\:\\:add_cert\\(\\) has parameter \\$value with no typehint specified\\.$#"
 			count: 1
 			path: src/Handler/StreamHandler.php
 
 		-
-			message: "#^Method GuzzleHttp\\\\Handler\\\\StreamHandler\\:\\:add_progress\\(\\) has no return typehint specified\\.$#"
+			message: "#^Method PvGuzzleHttp\\\\Handler\\\\StreamHandler\\:\\:add_progress\\(\\) has no return typehint specified\\.$#"
 			count: 1
 			path: src/Handler/StreamHandler.php
 
 		-
-			message: "#^Method GuzzleHttp\\\\Handler\\\\StreamHandler\\:\\:add_progress\\(\\) has parameter \\$options with no typehint specified\\.$#"
+			message: "#^Method PvGuzzleHttp\\\\Handler\\\\StreamHandler\\:\\:add_progress\\(\\) has parameter \\$options with no typehint specified\\.$#"
 			count: 1
 			path: src/Handler/StreamHandler.php
 
 		-
-			message: "#^Method GuzzleHttp\\\\Handler\\\\StreamHandler\\:\\:add_progress\\(\\) has parameter \\$params with no typehint specified\\.$#"
+			message: "#^Method PvGuzzleHttp\\\\Handler\\\\StreamHandler\\:\\:add_progress\\(\\) has parameter \\$params with no typehint specified\\.$#"
 			count: 1
 			path: src/Handler/StreamHandler.php
 
 		-
-			message: "#^Method GuzzleHttp\\\\Handler\\\\StreamHandler\\:\\:add_progress\\(\\) has parameter \\$value with no typehint specified\\.$#"
+			message: "#^Method PvGuzzleHttp\\\\Handler\\\\StreamHandler\\:\\:add_progress\\(\\) has parameter \\$value with no typehint specified\\.$#"
 			count: 1
 			path: src/Handler/StreamHandler.php
 
 		-
-			message: "#^Method GuzzleHttp\\\\Handler\\\\StreamHandler\\:\\:add_debug\\(\\) has no return typehint specified\\.$#"
+			message: "#^Method PvGuzzleHttp\\\\Handler\\\\StreamHandler\\:\\:add_debug\\(\\) has no return typehint specified\\.$#"
 			count: 1
 			path: src/Handler/StreamHandler.php
 
 		-
-			message: "#^Method GuzzleHttp\\\\Handler\\\\StreamHandler\\:\\:add_debug\\(\\) has parameter \\$options with no typehint specified\\.$#"
+			message: "#^Method PvGuzzleHttp\\\\Handler\\\\StreamHandler\\:\\:add_debug\\(\\) has parameter \\$options with no typehint specified\\.$#"
 			count: 1
 			path: src/Handler/StreamHandler.php
 
 		-
-			message: "#^Method GuzzleHttp\\\\Handler\\\\StreamHandler\\:\\:add_debug\\(\\) has parameter \\$params with no typehint specified\\.$#"
+			message: "#^Method PvGuzzleHttp\\\\Handler\\\\StreamHandler\\:\\:add_debug\\(\\) has parameter \\$params with no typehint specified\\.$#"
 			count: 1
 			path: src/Handler/StreamHandler.php
 
 		-
-			message: "#^Method GuzzleHttp\\\\Handler\\\\StreamHandler\\:\\:add_debug\\(\\) has parameter \\$value with no typehint specified\\.$#"
+			message: "#^Method PvGuzzleHttp\\\\Handler\\\\StreamHandler\\:\\:add_debug\\(\\) has parameter \\$value with no typehint specified\\.$#"
 			count: 1
 			path: src/Handler/StreamHandler.php
 
 		-
-			message: "#^Method GuzzleHttp\\\\Handler\\\\StreamHandler\\:\\:addNotification\\(\\) has no return typehint specified\\.$#"
+			message: "#^Method PvGuzzleHttp\\\\Handler\\\\StreamHandler\\:\\:addNotification\\(\\) has no return typehint specified\\.$#"
 			count: 1
 			path: src/Handler/StreamHandler.php
 
 		-
-			message: "#^Method GuzzleHttp\\\\Handler\\\\StreamHandler\\:\\:addNotification\\(\\) has parameter \\$params with no value type specified in iterable type array\\.$#"
+			message: "#^Method PvGuzzleHttp\\\\Handler\\\\StreamHandler\\:\\:addNotification\\(\\) has parameter \\$params with no value type specified in iterable type array\\.$#"
 			count: 1
 			path: src/Handler/StreamHandler.php
 
 		-
-			message: "#^Method GuzzleHttp\\\\Handler\\\\StreamHandler\\:\\:callArray\\(\\) has no return typehint specified\\.$#"
+			message: "#^Method PvGuzzleHttp\\\\Handler\\\\StreamHandler\\:\\:callArray\\(\\) has no return typehint specified\\.$#"
 			count: 1
 			path: src/Handler/StreamHandler.php
 
 		-
-			message: "#^Method GuzzleHttp\\\\Handler\\\\StreamHandler\\:\\:callArray\\(\\) has parameter \\$functions with no value type specified in iterable type array\\.$#"
+			message: "#^Method PvGuzzleHttp\\\\Handler\\\\StreamHandler\\:\\:callArray\\(\\) has parameter \\$functions with no value type specified in iterable type array\\.$#"
 			count: 1
 			path: src/Handler/StreamHandler.php
 
 		-
-			message: "#^Property GuzzleHttp\\\\HandlerStack\\:\\:\\$stack type has no value type specified in iterable type array\\.$#"
+			message: "#^Property PvGuzzleHttp\\\\HandlerStack\\:\\:\\$stack type has no value type specified in iterable type array\\.$#"
 			count: 1
 			path: src/HandlerStack.php
 
 		-
-			message: "#^Method GuzzleHttp\\\\HandlerStack\\:\\:__invoke\\(\\) has parameter \\$options with no value type specified in iterable type array\\.$#"
+			message: "#^Method PvGuzzleHttp\\\\HandlerStack\\:\\:__invoke\\(\\) has parameter \\$options with no value type specified in iterable type array\\.$#"
 			count: 1
 			path: src/HandlerStack.php
 
 		-
-			message: "#^Method GuzzleHttp\\\\HandlerStack\\:\\:setHandler\\(\\) has no return typehint specified\\.$#"
+			message: "#^Method PvGuzzleHttp\\\\HandlerStack\\:\\:setHandler\\(\\) has no return typehint specified\\.$#"
 			count: 1
 			path: src/HandlerStack.php
 
 		-
-			message: "#^Method GuzzleHttp\\\\HandlerStack\\:\\:unshift\\(\\) has no return typehint specified\\.$#"
+			message: "#^Method PvGuzzleHttp\\\\HandlerStack\\:\\:unshift\\(\\) has no return typehint specified\\.$#"
 			count: 1
 			path: src/HandlerStack.php
 
 		-
-			message: "#^Method GuzzleHttp\\\\HandlerStack\\:\\:push\\(\\) has no return typehint specified\\.$#"
+			message: "#^Method PvGuzzleHttp\\\\HandlerStack\\:\\:push\\(\\) has no return typehint specified\\.$#"
 			count: 1
 			path: src/HandlerStack.php
 
 		-
-			message: "#^Method GuzzleHttp\\\\HandlerStack\\:\\:before\\(\\) has no return typehint specified\\.$#"
+			message: "#^Method PvGuzzleHttp\\\\HandlerStack\\:\\:before\\(\\) has no return typehint specified\\.$#"
 			count: 1
 			path: src/HandlerStack.php
 
 		-
-			message: "#^Method GuzzleHttp\\\\HandlerStack\\:\\:after\\(\\) has no return typehint specified\\.$#"
+			message: "#^Method PvGuzzleHttp\\\\HandlerStack\\:\\:after\\(\\) has no return typehint specified\\.$#"
 			count: 1
 			path: src/HandlerStack.php
 
 		-
-			message: "#^Method GuzzleHttp\\\\HandlerStack\\:\\:remove\\(\\) has no return typehint specified\\.$#"
+			message: "#^Method PvGuzzleHttp\\\\HandlerStack\\:\\:remove\\(\\) has no return typehint specified\\.$#"
 			count: 1
 			path: src/HandlerStack.php
 
 		-
-			message: "#^Method GuzzleHttp\\\\HandlerStack\\:\\:splice\\(\\) has no return typehint specified\\.$#"
+			message: "#^Method PvGuzzleHttp\\\\HandlerStack\\:\\:splice\\(\\) has no return typehint specified\\.$#"
 			count: 1
 			path: src/HandlerStack.php
 
 		-
-			message: "#^Method GuzzleHttp\\\\HandlerStack\\:\\:debugCallable\\(\\) has parameter \\$fn with no value type specified in iterable type array\\.$#"
+			message: "#^Method PvGuzzleHttp\\\\HandlerStack\\:\\:debugCallable\\(\\) has parameter \\$fn with no value type specified in iterable type array\\.$#"
 			count: 1
 			path: src/HandlerStack.php
 
@@ -1046,17 +1046,17 @@ parameters:
 			path: src/HandlerStack.php
 
 		-
-			message: "#^Method GuzzleHttp\\\\MessageFormatter\\:\\:format\\(\\) should return string but returns string\\|null\\.$#"
+			message: "#^Method PvGuzzleHttp\\\\MessageFormatter\\:\\:format\\(\\) should return string but returns string\\|null\\.$#"
 			count: 1
 			path: src/MessageFormatter.php
 
 		-
-			message: "#^Method GuzzleHttp\\\\Middleware\\:\\:history\\(\\) has parameter \\$container with generic interface ArrayAccess but does not specify its types\\: TKey, TValue$#"
+			message: "#^Method PvGuzzleHttp\\\\Middleware\\:\\:history\\(\\) has parameter \\$container with generic interface ArrayAccess but does not specify its types\\: TKey, TValue$#"
 			count: 1
 			path: src/Middleware.php
 
 		-
-			message: "#^Method GuzzleHttp\\\\Middleware\\:\\:history\\(\\) has parameter \\$container with no value type specified in iterable type array\\.$#"
+			message: "#^Method PvGuzzleHttp\\\\Middleware\\:\\:history\\(\\) has parameter \\$container with no value type specified in iterable type array\\.$#"
 			count: 1
 			path: src/Middleware.php
 
@@ -1066,27 +1066,27 @@ parameters:
 			path: src/Middleware.php
 
 		-
-			message: "#^Method GuzzleHttp\\\\Pool\\:\\:__construct\\(\\) has parameter \\$config with no value type specified in iterable type array\\.$#"
+			message: "#^Method PvGuzzleHttp\\\\Pool\\:\\:__construct\\(\\) has parameter \\$config with no value type specified in iterable type array\\.$#"
 			count: 1
 			path: src/Pool.php
 
 		-
-			message: "#^Method GuzzleHttp\\\\Pool\\:\\:__construct\\(\\) has parameter \\$requests with no value type specified in iterable type array\\|Iterator\\.$#"
+			message: "#^Method PvGuzzleHttp\\\\Pool\\:\\:__construct\\(\\) has parameter \\$requests with no value type specified in iterable type array\\|Iterator\\.$#"
 			count: 1
 			path: src/Pool.php
 
 		-
-			message: "#^Method GuzzleHttp\\\\Pool\\:\\:batch\\(\\) has parameter \\$options with no value type specified in iterable type array\\.$#"
+			message: "#^Method PvGuzzleHttp\\\\Pool\\:\\:batch\\(\\) has parameter \\$options with no value type specified in iterable type array\\.$#"
 			count: 1
 			path: src/Pool.php
 
 		-
-			message: "#^Method GuzzleHttp\\\\Pool\\:\\:batch\\(\\) has parameter \\$requests with no value type specified in iterable type array\\|Iterator\\.$#"
+			message: "#^Method PvGuzzleHttp\\\\Pool\\:\\:batch\\(\\) has parameter \\$requests with no value type specified in iterable type array\\|Iterator\\.$#"
 			count: 1
 			path: src/Pool.php
 
 		-
-			message: "#^Method GuzzleHttp\\\\Pool\\:\\:batch\\(\\) return type has no value type specified in iterable type array\\.$#"
+			message: "#^Method PvGuzzleHttp\\\\Pool\\:\\:batch\\(\\) return type has no value type specified in iterable type array\\.$#"
 			count: 1
 			path: src/Pool.php
 
@@ -1096,47 +1096,47 @@ parameters:
 			path: src/Pool.php
 
 		-
-			message: "#^Method GuzzleHttp\\\\Pool\\:\\:cmpCallback\\(\\) has parameter \\$name with no typehint specified\\.$#"
+			message: "#^Method PvGuzzleHttp\\\\Pool\\:\\:cmpCallback\\(\\) has parameter \\$name with no typehint specified\\.$#"
 			count: 1
 			path: src/Pool.php
 
 		-
-			message: "#^Method GuzzleHttp\\\\Pool\\:\\:cmpCallback\\(\\) has parameter \\$options with no value type specified in iterable type array\\.$#"
+			message: "#^Method PvGuzzleHttp\\\\Pool\\:\\:cmpCallback\\(\\) has parameter \\$options with no value type specified in iterable type array\\.$#"
 			count: 1
 			path: src/Pool.php
 
 		-
-			message: "#^Method GuzzleHttp\\\\Pool\\:\\:cmpCallback\\(\\) has parameter \\$results with no value type specified in iterable type array\\.$#"
+			message: "#^Method PvGuzzleHttp\\\\Pool\\:\\:cmpCallback\\(\\) has parameter \\$results with no value type specified in iterable type array\\.$#"
 			count: 1
 			path: src/Pool.php
 
 		-
-			message: "#^Method GuzzleHttp\\\\PrepareBodyMiddleware\\:\\:__invoke\\(\\) has parameter \\$options with no value type specified in iterable type array\\.$#"
+			message: "#^Method PvGuzzleHttp\\\\PrepareBodyMiddleware\\:\\:__invoke\\(\\) has parameter \\$options with no value type specified in iterable type array\\.$#"
 			count: 1
 			path: src/PrepareBodyMiddleware.php
 
 		-
-			message: "#^Method GuzzleHttp\\\\PrepareBodyMiddleware\\:\\:addExpectHeader\\(\\) has parameter \\$modify with no value type specified in iterable type array\\.$#"
+			message: "#^Method PvGuzzleHttp\\\\PrepareBodyMiddleware\\:\\:addExpectHeader\\(\\) has parameter \\$modify with no value type specified in iterable type array\\.$#"
 			count: 1
 			path: src/PrepareBodyMiddleware.php
 
 		-
-			message: "#^Method GuzzleHttp\\\\PrepareBodyMiddleware\\:\\:addExpectHeader\\(\\) has parameter \\$options with no value type specified in iterable type array\\.$#"
+			message: "#^Method PvGuzzleHttp\\\\PrepareBodyMiddleware\\:\\:addExpectHeader\\(\\) has parameter \\$options with no value type specified in iterable type array\\.$#"
 			count: 1
 			path: src/PrepareBodyMiddleware.php
 
 		-
-			message: "#^Property GuzzleHttp\\\\RedirectMiddleware\\:\\:\\$defaultSettings has no typehint specified\\.$#"
+			message: "#^Property PvGuzzleHttp\\\\RedirectMiddleware\\:\\:\\$defaultSettings has no typehint specified\\.$#"
 			count: 1
 			path: src/RedirectMiddleware.php
 
 		-
-			message: "#^Method GuzzleHttp\\\\RedirectMiddleware\\:\\:__invoke\\(\\) has parameter \\$options with no value type specified in iterable type array\\.$#"
+			message: "#^Method PvGuzzleHttp\\\\RedirectMiddleware\\:\\:__invoke\\(\\) has parameter \\$options with no value type specified in iterable type array\\.$#"
 			count: 1
 			path: src/RedirectMiddleware.php
 
 		-
-			message: "#^Method GuzzleHttp\\\\RedirectMiddleware\\:\\:checkRedirect\\(\\) has parameter \\$options with no value type specified in iterable type array\\.$#"
+			message: "#^Method PvGuzzleHttp\\\\RedirectMiddleware\\:\\:checkRedirect\\(\\) has parameter \\$options with no value type specified in iterable type array\\.$#"
 			count: 1
 			path: src/RedirectMiddleware.php
 
@@ -1146,17 +1146,17 @@ parameters:
 			path: src/RedirectMiddleware.php
 
 		-
-			message: "#^Parameter \\#1 \\$promise of method GuzzleHttp\\\\RedirectMiddleware\\:\\:withTracking\\(\\) expects GuzzleHttp\\\\Promise\\\\PromiseInterface, GuzzleHttp\\\\Promise\\\\PromiseInterface\\|Psr\\\\Http\\\\Message\\\\ResponseInterface given\\.$#"
+			message: "#^Parameter \\#1 \\$promise of method PvGuzzleHttp\\\\RedirectMiddleware\\:\\:withTracking\\(\\) expects PvGuzzleHttp\\\\Promise\\\\PromiseInterface, PvGuzzleHttp\\\\Promise\\\\PromiseInterface\\|Psr\\\\Http\\\\Message\\\\ResponseInterface given\\.$#"
 			count: 1
 			path: src/RedirectMiddleware.php
 
 		-
-			message: "#^Method GuzzleHttp\\\\RedirectMiddleware\\:\\:withTracking\\(\\) has parameter \\$statusCode with no typehint specified\\.$#"
+			message: "#^Method PvGuzzleHttp\\\\RedirectMiddleware\\:\\:withTracking\\(\\) has parameter \\$statusCode with no typehint specified\\.$#"
 			count: 1
 			path: src/RedirectMiddleware.php
 
 		-
-			message: "#^Method GuzzleHttp\\\\RedirectMiddleware\\:\\:withTracking\\(\\) has parameter \\$uri with no typehint specified\\.$#"
+			message: "#^Method PvGuzzleHttp\\\\RedirectMiddleware\\:\\:withTracking\\(\\) has parameter \\$uri with no typehint specified\\.$#"
 			count: 1
 			path: src/RedirectMiddleware.php
 
@@ -1166,137 +1166,137 @@ parameters:
 			path: src/RedirectMiddleware.php
 
 		-
-			message: "#^Method GuzzleHttp\\\\RedirectMiddleware\\:\\:guardMax\\(\\) has parameter \\$options with no value type specified in iterable type array\\.$#"
+			message: "#^Method PvGuzzleHttp\\\\RedirectMiddleware\\:\\:guardMax\\(\\) has parameter \\$options with no value type specified in iterable type array\\.$#"
 			count: 1
 			path: src/RedirectMiddleware.php
 
 		-
-			message: "#^Method GuzzleHttp\\\\RedirectMiddleware\\:\\:modifyRequest\\(\\) has parameter \\$options with no value type specified in iterable type array\\.$#"
+			message: "#^Method PvGuzzleHttp\\\\RedirectMiddleware\\:\\:modifyRequest\\(\\) has parameter \\$options with no value type specified in iterable type array\\.$#"
 			count: 1
 			path: src/RedirectMiddleware.php
 
 		-
-			message: "#^Method GuzzleHttp\\\\RedirectMiddleware\\:\\:redirectUri\\(\\) has parameter \\$protocols with no value type specified in iterable type array\\.$#"
+			message: "#^Method PvGuzzleHttp\\\\RedirectMiddleware\\:\\:redirectUri\\(\\) has parameter \\$protocols with no value type specified in iterable type array\\.$#"
 			count: 1
 			path: src/RedirectMiddleware.php
 
 		-
-			message: "#^Method GuzzleHttp\\\\RetryMiddleware\\:\\:__invoke\\(\\) has parameter \\$options with no value type specified in iterable type array\\.$#"
+			message: "#^Method PvGuzzleHttp\\\\RetryMiddleware\\:\\:__invoke\\(\\) has parameter \\$options with no value type specified in iterable type array\\.$#"
 			count: 1
 			path: src/RetryMiddleware.php
 
 		-
-			message: "#^Method GuzzleHttp\\\\RetryMiddleware\\:\\:onFulfilled\\(\\) has parameter \\$options with no value type specified in iterable type array\\.$#"
+			message: "#^Method PvGuzzleHttp\\\\RetryMiddleware\\:\\:onFulfilled\\(\\) has parameter \\$options with no value type specified in iterable type array\\.$#"
 			count: 1
 			path: src/RetryMiddleware.php
 
 		-
-			message: "#^Method GuzzleHttp\\\\RetryMiddleware\\:\\:onRejected\\(\\) has parameter \\$options with no value type specified in iterable type array\\.$#"
+			message: "#^Method PvGuzzleHttp\\\\RetryMiddleware\\:\\:onRejected\\(\\) has parameter \\$options with no value type specified in iterable type array\\.$#"
 			count: 1
 			path: src/RetryMiddleware.php
 
 		-
-			message: "#^Method GuzzleHttp\\\\RetryMiddleware\\:\\:doRetry\\(\\) has parameter \\$options with no value type specified in iterable type array\\.$#"
+			message: "#^Method PvGuzzleHttp\\\\RetryMiddleware\\:\\:doRetry\\(\\) has parameter \\$options with no value type specified in iterable type array\\.$#"
 			count: 1
 			path: src/RetryMiddleware.php
 
 		-
-			message: "#^Method GuzzleHttp\\\\RetryMiddleware\\:\\:doRetry\\(\\) should return GuzzleHttp\\\\RetryMiddleware but returns GuzzleHttp\\\\Promise\\\\PromiseInterface\\.$#"
+			message: "#^Method PvGuzzleHttp\\\\RetryMiddleware\\:\\:doRetry\\(\\) should return PvGuzzleHttp\\\\RetryMiddleware but returns PvGuzzleHttp\\\\Promise\\\\PromiseInterface\\.$#"
 			count: 1
 			path: src/RetryMiddleware.php
 
 		-
-			message: "#^Property GuzzleHttp\\\\TransferStats\\:\\:\\$request has no typehint specified\\.$#"
+			message: "#^Property PvGuzzleHttp\\\\TransferStats\\:\\:\\$request has no typehint specified\\.$#"
 			count: 1
 			path: src/TransferStats.php
 
 		-
-			message: "#^Property GuzzleHttp\\\\TransferStats\\:\\:\\$response has no typehint specified\\.$#"
+			message: "#^Property PvGuzzleHttp\\\\TransferStats\\:\\:\\$response has no typehint specified\\.$#"
 			count: 1
 			path: src/TransferStats.php
 
 		-
-			message: "#^Property GuzzleHttp\\\\TransferStats\\:\\:\\$transferTime has no typehint specified\\.$#"
+			message: "#^Property PvGuzzleHttp\\\\TransferStats\\:\\:\\$transferTime has no typehint specified\\.$#"
 			count: 1
 			path: src/TransferStats.php
 
 		-
-			message: "#^Property GuzzleHttp\\\\TransferStats\\:\\:\\$handlerStats has no typehint specified\\.$#"
+			message: "#^Property PvGuzzleHttp\\\\TransferStats\\:\\:\\$handlerStats has no typehint specified\\.$#"
 			count: 1
 			path: src/TransferStats.php
 
 		-
-			message: "#^Property GuzzleHttp\\\\TransferStats\\:\\:\\$handlerErrorData has no typehint specified\\.$#"
+			message: "#^Property PvGuzzleHttp\\\\TransferStats\\:\\:\\$handlerErrorData has no typehint specified\\.$#"
 			count: 1
 			path: src/TransferStats.php
 
 		-
-			message: "#^Method GuzzleHttp\\\\TransferStats\\:\\:__construct\\(\\) has parameter \\$handlerStats with no value type specified in iterable type array\\.$#"
+			message: "#^Method PvGuzzleHttp\\\\TransferStats\\:\\:__construct\\(\\) has parameter \\$handlerStats with no value type specified in iterable type array\\.$#"
 			count: 1
 			path: src/TransferStats.php
 
 		-
-			message: "#^Method GuzzleHttp\\\\TransferStats\\:\\:getHandlerStats\\(\\) return type has no value type specified in iterable type array\\.$#"
+			message: "#^Method PvGuzzleHttp\\\\TransferStats\\:\\:getHandlerStats\\(\\) return type has no value type specified in iterable type array\\.$#"
 			count: 1
 			path: src/TransferStats.php
 
 		-
-			message: "#^Property GuzzleHttp\\\\UriTemplate\\:\\:\\$variables type has no value type specified in iterable type array\\.$#"
+			message: "#^Property PvGuzzleHttp\\\\UriTemplate\\:\\:\\$variables type has no value type specified in iterable type array\\.$#"
 			count: 1
 			path: src/UriTemplate.php
 
 		-
-			message: "#^Property GuzzleHttp\\\\UriTemplate\\:\\:\\$operatorHash type has no value type specified in iterable type array\\.$#"
+			message: "#^Property PvGuzzleHttp\\\\UriTemplate\\:\\:\\$operatorHash type has no value type specified in iterable type array\\.$#"
 			count: 1
 			path: src/UriTemplate.php
 
 		-
-			message: "#^Property GuzzleHttp\\\\UriTemplate\\:\\:\\$delims type has no value type specified in iterable type array\\.$#"
+			message: "#^Property PvGuzzleHttp\\\\UriTemplate\\:\\:\\$delims type has no value type specified in iterable type array\\.$#"
 			count: 1
 			path: src/UriTemplate.php
 
 		-
-			message: "#^Property GuzzleHttp\\\\UriTemplate\\:\\:\\$delimsPct type has no value type specified in iterable type array\\.$#"
+			message: "#^Property PvGuzzleHttp\\\\UriTemplate\\:\\:\\$delimsPct type has no value type specified in iterable type array\\.$#"
 			count: 1
 			path: src/UriTemplate.php
 
 		-
-			message: "#^Method GuzzleHttp\\\\UriTemplate\\:\\:expand\\(\\) has no return typehint specified\\.$#"
+			message: "#^Method PvGuzzleHttp\\\\UriTemplate\\:\\:expand\\(\\) has no return typehint specified\\.$#"
 			count: 1
 			path: src/UriTemplate.php
 
 		-
-			message: "#^Method GuzzleHttp\\\\UriTemplate\\:\\:expand\\(\\) has parameter \\$template with no typehint specified\\.$#"
+			message: "#^Method PvGuzzleHttp\\\\UriTemplate\\:\\:expand\\(\\) has parameter \\$template with no typehint specified\\.$#"
 			count: 1
 			path: src/UriTemplate.php
 
 		-
-			message: "#^Method GuzzleHttp\\\\UriTemplate\\:\\:expand\\(\\) has parameter \\$variables with no value type specified in iterable type array\\.$#"
+			message: "#^Method PvGuzzleHttp\\\\UriTemplate\\:\\:expand\\(\\) has parameter \\$variables with no value type specified in iterable type array\\.$#"
 			count: 1
 			path: src/UriTemplate.php
 
 		-
-			message: "#^Method GuzzleHttp\\\\UriTemplate\\:\\:parseExpression\\(\\) return type has no value type specified in iterable type array\\.$#"
+			message: "#^Method PvGuzzleHttp\\\\UriTemplate\\:\\:parseExpression\\(\\) return type has no value type specified in iterable type array\\.$#"
 			count: 1
 			path: src/UriTemplate.php
 
 		-
-			message: "#^Method GuzzleHttp\\\\UriTemplate\\:\\:expandMatch\\(\\) has parameter \\$matches with no value type specified in iterable type array\\.$#"
+			message: "#^Method PvGuzzleHttp\\\\UriTemplate\\:\\:expandMatch\\(\\) has parameter \\$matches with no value type specified in iterable type array\\.$#"
 			count: 1
 			path: src/UriTemplate.php
 
 		-
-			message: "#^Method GuzzleHttp\\\\UriTemplate\\:\\:isAssoc\\(\\) has parameter \\$array with no value type specified in iterable type array\\.$#"
+			message: "#^Method PvGuzzleHttp\\\\UriTemplate\\:\\:isAssoc\\(\\) has parameter \\$array with no value type specified in iterable type array\\.$#"
 			count: 1
 			path: src/UriTemplate.php
 
 		-
-			message: "#^Method GuzzleHttp\\\\Utils\\:\\:idnToAsci\\(\\) has parameter \\$info with no value type specified in iterable type array\\.$#"
+			message: "#^Method PvGuzzleHttp\\\\Utils\\:\\:idnToAsci\\(\\) has parameter \\$info with no value type specified in iterable type array\\.$#"
 			count: 1
 			path: src/Utils.php
 
 		-
-			message: "#^Function GuzzleHttp\\\\uri_template\\(\\) has parameter \\$variables with no value type specified in iterable type array\\.$#"
+			message: "#^Function PvGuzzleHttp\\\\uri_template\\(\\) has parameter \\$variables with no value type specified in iterable type array\\.$#"
 			count: 1
 			path: src/functions.php
 
@@ -1311,32 +1311,32 @@ parameters:
 			path: src/functions.php
 
 		-
-			message: "#^Function GuzzleHttp\\\\headers_from_lines\\(\\) has parameter \\$lines with no value type specified in iterable type iterable\\.$#"
+			message: "#^Function PvGuzzleHttp\\\\headers_from_lines\\(\\) has parameter \\$lines with no value type specified in iterable type iterable\\.$#"
 			count: 1
 			path: src/functions.php
 
 		-
-			message: "#^Function GuzzleHttp\\\\headers_from_lines\\(\\) return type has no value type specified in iterable type array\\.$#"
+			message: "#^Function PvGuzzleHttp\\\\headers_from_lines\\(\\) return type has no value type specified in iterable type array\\.$#"
 			count: 1
 			path: src/functions.php
 
 		-
-			message: "#^Function GuzzleHttp\\\\debug_resource\\(\\) should return resource but returns resource\\|false\\.$#"
+			message: "#^Function PvGuzzleHttp\\\\debug_resource\\(\\) should return resource but returns resource\\|false\\.$#"
 			count: 1
 			path: src/functions.php
 
 		-
-			message: "#^Function GuzzleHttp\\\\normalize_header_keys\\(\\) has parameter \\$headers with no value type specified in iterable type array\\.$#"
+			message: "#^Function PvGuzzleHttp\\\\normalize_header_keys\\(\\) has parameter \\$headers with no value type specified in iterable type array\\.$#"
 			count: 1
 			path: src/functions.php
 
 		-
-			message: "#^Function GuzzleHttp\\\\normalize_header_keys\\(\\) return type has no value type specified in iterable type array\\.$#"
+			message: "#^Function PvGuzzleHttp\\\\normalize_header_keys\\(\\) return type has no value type specified in iterable type array\\.$#"
 			count: 1
 			path: src/functions.php
 
 		-
-			message: "#^Function GuzzleHttp\\\\is_host_in_noproxy\\(\\) has parameter \\$noProxyArray with no value type specified in iterable type array\\.$#"
+			message: "#^Function PvGuzzleHttp\\\\is_host_in_noproxy\\(\\) has parameter \\$noProxyArray with no value type specified in iterable type array\\.$#"
 			count: 1
 			path: src/functions.php
 
@@ -1346,7 +1346,7 @@ parameters:
 			path: src/functions.php
 
 		-
-			message: "#^Function GuzzleHttp\\\\json_encode\\(\\) should return string but returns string\\|false\\.$#"
+			message: "#^Function PvGuzzleHttp\\\\json_encode\\(\\) should return string but returns string\\|false\\.$#"
 			count: 1
 			path: src/functions.php
 

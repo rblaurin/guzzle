@@ -1,9 +1,9 @@
 <?php
-namespace GuzzleHttp\Handler;
+namespace PvGuzzleHttp\Handler;
 
-use GuzzleHttp\Promise as P;
-use GuzzleHttp\Promise\Promise;
-use GuzzleHttp\Utils;
+use PvGuzzleHttp\Promise as P;
+use PvGuzzleHttp\Promise\Promise;
+use PvGuzzleHttp\Utils;
 use Psr\Http\Message\RequestInterface;
 
 /**
